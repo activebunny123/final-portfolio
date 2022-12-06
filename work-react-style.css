@@ -1,0 +1,80 @@
+/*-------------- Intro --------------*/
+
+#title {
+    -webkit-text-fill-color: rgb(252, 213, 144, 0.8);
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid rgb(252, 213, 144, 0.5);
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    background: rgb(252, 213, 144, 0.8);  
+    border-radius: 10px;
+}
+
+/*----------------------- Background -----------*/
+#bg {
+    background-image: linear-gradient(white, rgb(252, 213, 144, 0.5));
+}
+
+/* ----------------------- Challenge ------------------*/
+#challenge{
+    background-color: rgb(252, 213, 144, 0.8)
+}
+/*---------------Research ----------------*/
+#research {
+    background-image: linear-gradient( rgb(252, 213, 144, 0.3), white);
+}
+.persona-item {
+    font-weight: 400;
+}
+
+.ex-pic {
+    border: 2px solid rgba(255, 224, 113, 0.5);
+}
+
+/*-------------- Design Choice ---------*/
+#design {
+    background-image: linear-gradient(white, rgb(252, 213, 144, 0.5));
+}
+#design-choices {
+    width:70%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.dc-item {
+    width: 45%;
+}
+
+/*--------------- Result -----------*/
+#my-app {
+    border: 2px solid rgb(252, 213, 144, 0.8);
+    box-shadow: 2px;
+    width: 40vw;
+    height: auto
+}
+
+#key-feature {
+    margin-bottom: 2vw;
+}
+
+.material-symbols-outlined {
+    font-size: 2vw;
+}
+
+a{
+    color: black;
+}
+
+.expandable-box {
+    width: 30vw;
+    background-color: rgb(252, 213, 144, 0.5);
+}
+
+/*------------- Reflection ---------------*/
+#reflection {
+    background-color: rgb(252, 213, 144, 0.3);
+}

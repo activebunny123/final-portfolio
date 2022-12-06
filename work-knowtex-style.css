@@ -1,0 +1,167 @@
+/*-------------- Intro --------------*/
+
+#title {
+    -webkit-text-fill-color: rgba(133, 154, 210, 0.5);
+}
+
+/*----------------------- Background -----------*/
+#bg {
+    background-image: linear-gradient(white, rgba(133, 154, 210, 0.5));
+}
+
+#knowtex-logo-p {
+    width: 15%;
+    align-self: center;
+}
+/* ----------------------- Challenge ------------------*/
+#challenge{
+    background-color: rgba(133, 154, 210, 0.8)
+}
+
+/* ---------------------- Research section --------------*/
+#research {
+    background-image: linear-gradient(rgba(133, 154, 210, 0.3), white, rgba(133, 154, 210, 0.1));
+}
+
+#aud {
+    width: 100%;
+}
+
+.persona-item {
+    font-weight: 400;
+}
+
+/*---------------------- Precedent Work ------------------*/
+.ex-pic{
+    width: 40vw;
+    height: 25vw;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.ex-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ex-description {
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.expandable-pic {
+    transition:transform 0.25s ease;
+}
+
+.expandable-pic:hover {
+    -webkit-transform:scale(1.25); /* or some other value */
+    transform:scale(1.25);
+}
+
+.hyperlink {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*------------------------ Design -----------------*/
+/*---------LOW-FI----------*/
+.design-gallery{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 30vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    overflow: scroll;
+    border: 2px solid rgba(133, 154, 210, 0.5);
+    padding: 1vw 0;
+    border-radius: 1vw;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid rgba(133, 154, 210, 0.5);
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    background: rgba(133, 154, 210, 0.8);  
+    border-radius: 10px;
+}
+
+.design-img{
+    width: 30%;
+    height: 20vw;
+    object-fit: cover;
+    border: 2px solid #555;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+}
+
+/*--------Crtiques ----------*/
+#critiques {
+    width: 50%
+}
+
+/*---------FINAL HIGH FI --------------*/
+
+#design-choices {
+    width: 60vw;
+    margin: 2vw 0;
+    flex-wrap: wrap;
+}
+
+.dc-item {
+    max-width: 25vw;
+}
+
+/*------------------------RESULT -------------------*/
+#result {
+    background-image: linear-gradient(rgba(133, 154, 210, 0.5), white); 
+}
+
+
+video {
+    width:25vw;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+.num-list {
+    list-style: decimal;
+    margin: 2vw 0;
+    width: 60%;
+}
+
+#user-analysis {
+    width: 80%;
+    align-items: flex-start;
+    margin-top: 0;
+}
+
+.two-row-item {
+    width: 25vw;
+}
+
+.one-img {
+    border: 1px solid rgba(133, 154, 210, 0.5);
+    border-radius: 1vw;
+    height: 20vw;
+}
+
+/*------------ Reflection ------*/
+#reflection {
+    background-color: rgba(133, 154, 210, 0.3);
+}

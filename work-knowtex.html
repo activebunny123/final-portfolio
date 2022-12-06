@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="shared-style.css" rel="stylesheet" />
+        <link href="work-knowtex-style.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=League Spartan:200,300,400,500,600,700,800' rel='stylesheet'>
+        <title>Work - Knowtex</title>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li class="nav-item nav-left">
+                <a href="index.html#intro">AB</a>
+            </li>
+            <li class="nav-item nav-right push">
+                <a href="index.html#work">My Work</a>
+            </li>
+            <li class="nav-item nav-right">
+                <a href="">About</a>
+            </li>
+        </ul>
+        <div class="body-item" id="intro">
+            <h1 id="title">Iterative Design for Knowtex</h1>
+            <h3 id="obj">Provide a high-fidelity design of Knowtex's product based on its concept</p>
+        </div>
+        <div class="body-item" id="bg">
+            <h2>Background</h2>
+            <p class="blah">
+                Telehealth has picked up during the COVID-19 pandemic, 
+                and more medical practices start to integrate online patient visit into their business.
+                At the same time, many doctors and hospitals still use hand-written files for records.
+                Also, doctors need to assign medical codes to services provided for insurance purpose.
+                With the growing complex medical code system, assiging codes become a laborous task that 
+                is time-consuming and inducive to mistakes.
+                <br><br>
+                According to a <a href="https://mymedicalscore.com/medical-error-statistics/#:~:text=Top%20Health%20Statistics%201%20Medical%20billing%20errors%20cost,surgical%20errors%20occur%20each%20year.%20More%20items...%20" style="text-decoration: underline; color: black;">MyMedicalSore report</a>,
+                inaccurate medical coding and erroneous billing cost Americans more than $2 billion annually, 
+                and about 12 million Americans are misdiagnosed each year.
+                The inefficicent system is costly and contributes to burn-outs among medical professionals.
+            </p>
+            <img id='knowtex-logo-p' src="img-work-knowtex/knowtex-logo-clear-bg.png" />
+            <p class="blah">
+                Knowtex is a startup that aims to use artificial intelligence 
+                and voice recognition to help doctors take better visit notes 
+                and more easily assign diagnosis and service medical codes. 
+                Its goal is to ultimately allow doctors to be able to fully 
+                focus on their patients in visits, 
+                while the Knowtex AI application takes notes on the visit.
+            </p>
+        </div>
+        <div class="body-item" id="challenge">
+            <h2>Challenge</h2>
+            <p class="blah">
+                My team aims to create a high-fidelity mock-up of Knowtex's product,
+                which needs to have a smooth and intuitive workflow.
+                We also need to make key design decision with respect to video and audio recording,
+                patient record storage, AI note taking, and medical codes assignment.
+                Ultimately, this application should be an effective assistance to doctors, 
+                rather than an administrative burden.
+            </p>
+        </div>
+        <div class="body-item" id="research">
+            <h2>Research</h2>
+            <div class="flex-container" id="aud">
+                <p class="sec-subtitle">Understanding the Audience</p>
+                <p class="blah">
+                    To determine what functionalities this application should provide, 
+                    We want to get a better understanding of the needs and wants of the 
+                    target audience for the applicastion. In this case, 
+                    the target audience would be medical professionals with online patient visits. 
+                    Having had conversations with friends and relatives working in the medical field,
+                    our team and I summarized key charactersitics of our potential users, and those are listed below.
+                </p>
+                <h3>Doctors with online patient visits</h3>
+                <div class="row-container">
+                    <ul id="aud-description">
+                        <li class="persona-item"> Says
+                            <ul>
+                                <li>"There are so many records..I just want to get this done with"</li>
+                                <li>"We should have a better system"</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Thinks
+                            <ul>
+                                <li>Where is the allergy information of this patient?</li>
+                                <li>This visit has 10 services! What are the corresponding codes again?</li>
+                            </ul>
+                        </li> 
+                        <li class="persona-item"> Feels
+                            <ul>
+                                <li>Frastrated by looking up and assigning medical codes</li>
+                                <li>Exhausted by a long-day of patient vists</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Wants
+                            <ul>
+                                <li>Want to dedicate most attention to patients to make it an overall positive experience for both parties</li>
+                                <li>Hope the note-taking process is easy, fast, and error-free</li>
+                                <li>Want to have patient records "at hand" while all the records are neatly organized</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img id="aud-pic" src="img-work-knowtex/audience-doctor.png"/>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Key Design Elements and Precedent Works</p>
+                <div class="row-container">
+                    <a class="hyperlink" href="https://otter.ai" target="_blank">
+                        <img class = "ex-pic expandable-pic" src="./img-work-knowtex/otter.jpg" alt="clickable photo of Otter.ai"/>
+                        <h4>Click to check out the website</h4>
+                    </a>
+                    <div class="ex-text">
+                        <h3>Audio Transcript Notetaking: Otter.ai</h3>
+                        <p class="ex-description">Otter.ai records meetings, 
+                            allows users to highlight and takes notes on a real-time transcript, 
+                            and generates an automated, sharable summary. 
+                            <br><br>
+                            It follows a simple white and blue design, 
+                            and my personal experience with Otter suggests that it has an intuitive workflow. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row-container">
+                    <div class="ex-text">
+                        <h3>Healthcare Admin Software: Electronic Health Record (EHR)</h3>
+                        <p class="ex-description">
+                            Existing EHR system are often desktop/web-based applications.
+                            As shown in the photo, they are crowded with information, including schedule, patients information, and more.
+                            <br><br>
+                            While providing all the necessary information for medical records, 
+                            such EHR does not support online visit and are hard to learn.
+                        </p>
+                    </div>
+                    <img class = "ex-pic" src="./img-work-knowtex/EHR.jpg" alt="exmample of an EHR software"/>
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="design">
+            <h2>Design</h2>
+            <p class="blah">
+                Based on our research and analysis of audience and precedent work,
+                we settled on a simple yet professional design style, 
+                incorporating elements such as calendar and patient information from traditional EHRs,
+                and audio transcript and minimalistic style from products such as Otter.ai. 
+                <br><br>
+                Each member of our team made a set of rough sketches representing our initial visions, 
+                and we integrated our ideas into one uniform design, 
+                the low-fi and high-fi prototype of which are presented below.
+            </p>
+            <div class="flex-container">
+                <p class="sec-subtitle">Low-Fi Design</p>
+                <div class="design-gallery">
+                    <img class="design-img" src="img-work-knowtex/wireframe-login.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-patient.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-old-record.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-calibration.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-calibration process.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-calibration complete.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-record-in-progress.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-record&code.png">
+                    <img class="design-img" src="img-work-knowtex/wireframe-edit code.png">
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Intital High-Fi Design</p>
+                <a class="hyperlink" href="https://www.figma.com/proto/oMWi69NQH8sjUstxIuPn8l/Iterative-Design---Knowtex?node-id=4%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=4%3A2" target="_blank">
+                    <h3>Check Out the Workflow</h3>
+                </a>
+                <div class="design-gallery">
+                    <img class="design-img" src="img-work-knowtex/high1-login.png">
+                    <img class="design-img" src="img-work-knowtex/high1-calendar.png">
+                    <img class="design-img" src="img-work-knowtex/high1-allpatient.png">
+                    <img class="design-img" src="img-work-knowtex/high1-patient.png">
+                    <img class="design-img" src="img-work-knowtex/high1-calibration.png">
+                    <img class="design-img" src="img-work-knowtex/high1-oldrecord.png">
+                    <img class="design-img" src="img-work-knowtex/high1-newrecord.png">
+                    <img class="design-img" src="img-work-knowtex/high1-record&code.png">
+                    <img class="design-img" src="img-work-knowtex/high1-editcode.png">
+                </div>
+                <div class="flex-container" id="critiques">
+                    <p class="sec-subtitle">Critiques</p>
+                    <h4>We paticipated in a group critique session where our classmates experimented with our prototype and provided feedbacks
+                        <br>
+                        The summary of feedbacks can be found below
+                    </h4>
+                    <ul>
+                        <li>The group was split on whether adding symbols to buttons could make 
+                            the page less dense and easier to navigate, 
+                            or whether keeping the buttons with text labels 
+                            gave the application a more official, medical feel.
+
+                        </li>
+                        <li>
+                            Users should be able to access the voice calibration page from other pages 
+                            (such as in the middle of a visit, in case the system stops working).
+                        </li>
+                        <li>
+                            Locations of buttons felt unintuitive or unpredictable, with “back” buttons appearing in different locations on different pages.
+                        </li>
+                        <li>
+                            Add options of editing or deleting past records.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Final High-Fi Design</p>
+                <h3>Design Choices: Response to Critiques</h3>
+                <div class="row-start-container" id="design-choices">
+                    <div class="dc-item">
+                        <h4>Adding symbols to button or not</h4>
+                        <p>We added some symbols to certain buttons 
+                            (like the log out button), 
+                            but largely decided to keep — but simplify — 
+                            the text on buttons, 
+                            hopefully keeping the same formal feel while 
+                            making it faster to navigate.
+                        </p>
+                    </div>
+                    <div class="dc-item">
+                        <h4>Access voice calibration from different locations</h4>
+                        <p>We added a “re-calibrate voice recognition” button
+                            to the record in-progress page.</p>
+                    </div>
+                    <div class="dc-item">
+                        <h4>Improve button locations</h4>
+                        <p>We shifted the locations of buttons to hopefully
+                            clarify flow, 
+                            while keeping the “back” button in the top right of 
+                            every screen.</p>
+                    </div>
+                    <div class="dc-item">
+                        <h4>Edit / Delete Past Records</h4>
+                        <p> The reality of the healthcare system is that 
+                            once records have been published to a patient’s 
+                            medical record, they may not be altered or removed.
+                            <br><br>
+                            With this in mind, we chose not to allow editing / deleting a record after submission.
+                            Instead, we added warnings to the interface to 
+                            more clearly specify to users that once published, 
+                            records cannot be edited or deleted.
+
+                        </p>
+                    </div>
+                </div>
+                <h3>Final Prototype</h3>
+                <div>
+                    <a class="hyperlink" href="https://www.figma.com/proto/oMWi69NQH8sjUstxIuPn8l/Iterative-Design-Knowtex?node-id=113%3A42" target="_blank">
+                        <h4>Check Out the Workflow</h4>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="result">
+            <h2>Result</h2>
+            <p class="blah">We uploaded our final high-fi prototype to a user-testing website, 
+                where we assigned users 4 tasks and recorded their process of navigating our prototype
+                and completing the tasks. 
+                We asked the users to provide feedbacks and criticisms.
+            </p>
+            <div class="flex-container">
+                <p class="sec-subtitle">User Testing</p>
+                <h3>Videos of Three Users Navigating Our Prototype with Given Tasks</h3>
+                <div class="row-container" id="user-videos">
+                    <video controls>
+                        <source src="img-work-knowtex/user1 video.mp4" type="video/mp4">
+                    </video>
+                    <video controls>
+                        <source src="img-work-knowtex/user2 video.mp4" type="video/mp4">
+                    </video>
+                    <video controls>
+                        <source src="img-work-knowtex/user3 video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="flex-container">
+                    <h3>Tasks Assigned to Users</h3>
+                    <ul class="num-list">
+                        <li>
+                            Calibrate the live voice transcription system
+                        </li>
+                        <li>
+                            Create a new visit record for John Dough’s 9-10am visit on Thursday, May 5th
+                        </li>
+                        <li>
+                            Edit and save the Service & Code form (SC form for short)
+                        </li>
+                        <li>
+                            Complete and publish the Visit Record and Service & Code forms to John Dough’s medical record
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-container">
+                    <h3>User Feedback Analysis</h3>
+                    <p class="blah">Users have provided us with helpful feeback with respect to functionality, 
+                        design, and workflow. Below is my summary of users' suggestions.</p>
+                    <div class="row-container" id="user-analysis">
+                        <div class="two-row-item">
+                            <h4>Improvement to the Workflow</h4>
+                            <ul>
+                                <li>
+                                    Making the location of the voice calibration button more intuitive; 
+                                </li>
+                                <li>
+                                    Reducing to number of highlights, which can be distractive;
+                                </li>
+                                <li>
+                                    Adding buttons of same functionality to multiple tasks instead of using one button for all;
+                                </li>
+                                <li>
+                                    Limiting the number of buttons and options on various screens.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="two-row-item">
+                            <h4>Go Beyond our Current Prototype</h4>
+                            <ul>
+                                <li>
+                                    Making the prototype more responsive to input (limit of Figma);
+                                </li>
+                                <li>
+                                    Testing with medical professionals and improve learnability.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Email to Knowtex</p>
+                <p class="blah">We also emailed the Figma mockup to the Knowtex Founds.
+                    And here is their reply...
+                </p>
+                <img class="one-img" src="img-work-knowtex/reply-email.png" />
+            </div>
+        </div>
+        <div class="body-item" id="reflection">
+            <h2>Reflection</h2>
+            <h3>Critique and Iterative Design</h3>
+            <p class="blah">
+                The experience involved multiple rounds of iterative design with peer critique and user testing.
+                Such cirtiques have revealed blind spots of design choices that none of the team members have noticed.
+                <br>
+                This taught me the importance of seeking and incorporating feedbacks from multiple perspectives when 
+                designing a product.
+            </p>
+            <h3>Design of User Testing</h3>
+            <p class="blah">
+                A significant portion of confusion in user testing arose from illogical sequence of task assigned
+                that doesn't correspond to the workflow of our prototype.
+                Going forward, we will be more cautious about the design of user testing
+                so that it's more inducive to feedbacks on product itself.
+            </p>
+        </div>
+    </body>
+</html>

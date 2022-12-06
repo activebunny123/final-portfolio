@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="shared-style.css" rel="stylesheet" />
+        <link href="work-redesign-style.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=League Spartan:200,300,400,500,600,700,800' rel='stylesheet'>
+        <title>Work - Redesign</title>
+    </head>
+    <body>
+        <!--<div id="pic"></div>-->
+        <ul class="navbar">
+            <li class="nav-item nav-left">
+                <a href="index.html#intro">AB</a>
+            </li>
+            <li class="nav-item nav-right push">
+                <a href="index.html#work">My Work</a>
+            </li>
+            <li class="nav-item nav-right">
+                <a href="about-me.html">About</a>
+            </li>
+        </ul>
+        <div class="body-item" id="intro">
+            <h1 id="title">Responsive Redesign for Yan's Cuisine</h1>
+            <h3 id="obj">Provide a responsive webdesign solution better suited for Yan's Cuisine</p>
+        </div>
+        <div class="body-item" id="bg">
+            <h2>Background</h2>
+            <p class="blah">Online ordering and food delivery has been growing fast as consumers enjoy the convenience, 
+                and COVID-19 pandemic has exacerbated this trend.
+                Nowadays, good customer service goes beyond the taste of food and speed of delivery, 
+                as it depends on the overall experience with navigating website, placing order, and more.
+                However, many restaurants struggle to provide a versatile online platform that balances between aesthetic, ease of navigation, and information.
+                Often, theses websites are not up to the standards with their tech-savvy customers.
+                <br><br>
+                This is the case with Yan's Cuisine, a Chinese restaurant located near Brown University's campus in Providence, RI.
+                Though they have delicious food, their website is hard to navigate.
+            </p>
+        </div>
+        <div class="body-item" id="challenge">
+            <h2>Challenge</h2>
+            <p class="blah">I seek to redesign Yan's website so that it's responsive and can adapt to different devices. 
+                Also, I want to improve the layout of Yan's website such that it would be easier for customers to navigate.
+                I will incorporate usability and accessibility principles to bring a clearer and more logical hierarchy and information 
+                flow to Yan's website, while keeping most of the information from its original site.</p>
+        </div>
+        <div class="body-item" id="research">
+            <h2>Research</h2>
+            <div class="flex-container" id="aud">
+                <p class="sec-subtitle">Understanding the Audience</p>
+                <p class="blah">To determine what improvements this redesign should bring,
+                    I want to get a better understanding of the needs and wants of the target audience for the website.
+                    In this case, the target audience would be existing or potential customers of Yan's, 
+                    looking to ordering online, or simply finding information about the restaurant.
+                    Drawing on real-life experiences, I have summarized the characteristics of those customers. 
+                </p>
+                <h3>Customer of Yan's Looking to Order Online</h3>
+                <div class="row-container">
+                    <ul id="aud-description">
+                        <li class="persona-item"> Says
+                            <ul>
+                                <li>"Let's get some Chinese food today!"</li>
+                                <li>"Where can I find the opening hours of Yan's?"</li>
+                                <li>"This website is completely unusable on my phone!"</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Thinks
+                            <ul>
+                                <li>How can I place an order for pickup?</li>
+                                <li>I cannot read those small texts! I need my glasses.</li>
+                            </ul>
+                        </li> 
+                        <li class="persona-item"> Feels
+                            <ul>
+                                <li>Frustrated by not being able to select an item because everything is too small on tablet.</li>
+                                <li>Hungryyyyyyy!</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Wants
+                            <ul>
+                                <li>Clear layout with the most important functionalities (ex. order online) being the most obvious.</li>
+                                <li>Easy navigation to different information.</li>
+                                <li>Website adaptable to different screen sizes so that it's usable on different devices.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img id="aud-pic" src="img-work-redesign/audience-food.png"/>
+                </div>
+                <p class="sec-subtitle">Identify Problems</p>
+                <p class="blah">Before making any design, I want to understand what issues the original website has 
+                    and how I can address those issues.
+                    <br><br>
+                    Thus, I have studied Yan's website under different screen sizes,
+                    which are displayed below. 
+                </p>
+                <div class="flex-container" id="original">
+                    <h3>Original Website Displayed in Different Dimensions</h3>
+                    <p class="sub-subtitle">Click on Figures to Expand</p>
+                    <div class="row-container" id="original-websites">
+                        <a class="hyperlink" href="./img-work-redesign/original-large.png" target="_blank">
+                            <img class= "expandable-pic original-website-item" src="img-work-redesign\original-large.png" alt="photo of Yan's website with large screen size" />
+                            <h4>Large Screen</h4>
+                        </a>
+                        <a class="hyperlink" href="./img-work-redesign/original-med.png" target="_blank">
+                            <img class= " expandable-pic original-website-item" src="img-work-redesign\original-med.png" alt="photo of Yan's website with medium screen size"/>
+                            <h4>Medium Screen</h4>
+                        </a>
+                        <a class="hyperlink" href="./img-work-redesign/original-small.jpg" target="_blank">
+                            <img class= "expandable-pic original-website-item" src="img-work-redesign\original-small.jpg" alt="photo of Yan's website with small screen size"/>
+                            <h4>Small Screen</h4>
+                        </a>
+                    </div>
+                </div>
+                <h3>Problems</h3>
+                <p class="blah">Based on my study of Yan's website, I have identified multiple usability and 
+                    accessibility issues (using WAVE Website Accessibility Evaluation Tool), which are listed below.
+                </p>
+                <div class="row-start-container" id="problems">
+                    <div class="pb-item" id="pb1">
+                        <h4>Learnability</h4>
+                        <ul id="pb-list">
+                            <li>
+                                <p style="font-weight:400">Unclear Login Option on the Left</p>
+                                <ul>
+                                    <li>
+                                        Conventionally on the right
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Disconnected Information</p>
+                                <ul>
+                                    <li>
+                                        Location and Hours separated by the logo
+                                    </li>
+                                    <li>
+                                        isolated accepted forms of payment
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pb-item" id="pb2">
+                        <h4>Memorability</h4>
+                        <ul id="pb-list">
+                            <li>
+                                <p style="font-weight:400">Many Categories with the same design
+                                </p>
+                                <ul>
+                                    <li>
+                                        users won't remember the category of their desired food
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Unconventional Design</p>
+                                <p>Users forget Yan's specific placement of things</p>
+                                <ul>
+                                    <li>
+                                        Login on the left
+                                    </li>
+                                    <li>
+                                        search bar at the bottom
+                                    </li>
+                                    <li>
+                                        Small Screen: Location info at the bottom
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Disconnected Information</p>
+                                <ul>
+                                    <li>
+                                        Location and Hours separated by the logo
+                                    </li>
+                                    <li>
+                                        isolated accepted forms of payment
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pb-item" id="pb3">
+                        <h4>Usability</h4>
+                        <ul id="pb-list">
+                            <li>
+                                <p style="font-weight:400">Too Much Text!!!
+                                </p>
+                                <ul>
+                                    <li>
+                                        Small screen: need to scroll one full page to access main functions (order online)
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Search Bar & Contact Info</p>
+                                <ul>
+                                    <li>
+                                        inconvenient placement at the bottom of the page
+                                    </li>
+                                    <li>
+                                        Take TOOO LONG TO FIND!
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Medium & Small Screen</p>
+                                <ul>
+                                    <li>
+                                        Hard-to-find menu categories
+                                    </li>
+                                    <li>
+                                        Overly small font for Hours
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pb-item" id="pb4">
+                        <h4>Accessibility</h4>
+                        <ul id="pb-list">
+                            <li>
+                                <p style="font-weight:400">Very Small Text -- Hard to Read
+                                </p>
+                                <ul>
+                                    <li>
+                                        Each menu category has an associated number in overly small font
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Redundant Link -- confusion</p>
+                                <ul>
+                                    <li>
+                                        Multiple link/buttons lead to the same destination
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p style="font-weight:400">Multiple Form Labels</p>
+                                <p>multiple labels associated with one input</p>
+                                <ul>
+                                    <li>
+                                        assistive tech unable to read the appropriate label
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Precedent Work</p>
+                <div class="row-container">
+                    <a class="hyperlink" href="https://www.plantcitypvd.com/" target="_blank">
+                        <img class = "ex-pic expandable-pic" src="./img-work-redesign/plantcity.png" alt="clickable photo of Plant City's website"/>
+                        <h4>Click to check out the website</h4>
+                    </a>
+                    <div class="ex-text">
+                        <h3>Plant City's Website</h3>
+                        <p class="ex-description">Plant City's website follows a minimalistic design style. 
+                            The home page has a fixed navigation bar with expandable hamburger menu, the slogan, and buttons for two main functionalities.
+                            Its balance between simplicity, aesthetic, and ease of use inspired my redesign.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="design">
+            <h2>Design</h2>
+            <div class="flex-container">
+                <p class="sec-subtitle">Low-Fi Designs</p>
+                <div class="design-item">
+                    <h3>Large Screen</h3>
+                    <img class="low-fi-img" id="low-fi-large" src="./img-work-redesign/low-fi-large.jpg" alt="annotated low-fi design for large screen"/>
+                </div>
+                <div class="design-item">
+                    <h3>Medium Screen</h3>
+                    <img class="low-fi-img" id="low-fi-med" src="./img-work-redesign/low-fi-med.jpg" alt="annotated low-fi design for medium screen"/>
+                </div>
+                <div class="design-item">
+                    <h3>Small Screen</h3>
+                    <img class="low-fi-img" id="low-fi-small" src="./img-work-redesign/low-fi-small.jpg" alt="annotated low-fi design for small screen"/>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">High-Fi Designs</p>
+                <div class="design-item">
+                    <h3>Visual Design Style Guide</h3>
+                    <img class="high-fi-img" id="high-fi-vdsg" src="./img-work-redesign/high-fi-vdsg.png" alt="visual design style guide for high-fi design"/>
+                </div>
+                <div class="design-item">
+                    <h3>Large Screen</h3>
+                    <img class="high-fi-img" id="high-fi-large" src="./img-work-redesign/high-fi-large.jpg" alt="annotated high-fi design for large screen"/>
+                </div>
+                <div class="design-item">
+                    <h3>Medium Screen</h3>
+                    <img class="high-fi-img" id="high-fi-med" src="./img-work-redesign/high-fi-med.jpg" alt="annotated high-fi design for medium screen"/>
+                    <div id="high-fi-med-ann">
+                        <h4>Changes from the Large Screen</h4>
+                        <ul id="high-fi-med-ann-list">
+                            <li>h1 --> 9vw</li>
+                            <li>h2 --> 7vw</li>
+                            <li>h3 --> 5vw</li>
+                            <li>header font-size --> 2.2vw</li>
+                            <li>button font-size --> 2.2vw</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <h3>Small Screen</h3>
+                    <img class="high-fi-img" id="high-fi-small" src="./img-work-redesign/high-fi-small.jpg" alt="annotated high-fi design for small screen"/>
+                </div>
+                <div class="design-item">
+                    <h3>Design Choices</h3>
+                    <div class="row-start-container"id="design-choices">
+                        <div class="dc-item">
+                            <h4>Layout for Larger Containers</h4>
+                            <p>The body is divided by grid, because the design is more static and follows a simple verticle flow regardless of screen size. <br>
+                                Each grid has the flex layout, because it is easier to arrange smaller elements and allow for responsive adjustments.</p>
+                        </div>
+                        <div class="dc-item">
+                            <h4>In-between Sizes</h4>
+                            <p>Most elements have units of "vw" or in percentage, which allows for automatic adjustment to change in screen size. 
+                                <br>
+                                The breakpoint in screen size is chosen such that when elements do change size 
+                                (Ex. h1 changes from 8 to 9 to 11vw for larger, medium, and small screen), the size increase wouldn't be too drastic.</p>
+                        </div>
+                        <div class="dc-item">
+                            <h4>Interactive components</h4>
+                            <p>The links in header, footer, and the buttons are interactive. The color changes on hover and click.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="result">
+            <h2>Result</h2>
+            <p class="blah">Based on the high-fi design, I made a responsive home page for Yan's Cuisine. 
+                This page incorporated elements of the original page and the design principles.
+            </p>
+            <p class="sub-subtitle">Click on Figures to Visit Page</p>
+                <div id="webpages">
+                    <div class="webpage-item" id="original">
+                        <a href="https://www.yansri.com/" target="_blank">
+                            <img class="webpage-img" src="./img-work-redesign/original.png" alt="photo of Yan's webite">
+                        </a>
+                        <h3 style="font-weight: 400;">Original</h3>
+                    </div>
+                    <div class="webpage-item" id="redesigned">
+                        <a href="https://activebunny123.github.io/cs1300-hwk2-redesign-yans/" target="_blank">
+                            <img class="webpage-img" src="./img-work-redesign/redesign.png" alt="photo of redesiigned website">
+                        </a>
+                        <h3 style="font-weight: 400;">Redesigned</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="body-item" id="reflection">
+            <h2>Reflection</h2>
+            <h3>Trade off Between Information and Clarity</h3>
+            <p class="blah">During the design process, 
+                I have considered various choices regarding information preservation
+                and the simplicity of the webpage. 
+                The original home page has all the menu items listed out on a side bar,
+                which not only presents readability issues but is also unnecessary, 
+                as customers can always navigate to the menu page.
+                Therefore, the redesign completely ditched the side-bar menu,
+                and used a menu button at the most eye-catching position of the page instead.
+                <br><br>
+                I learned that webpage design should always consider what information is necessary,
+                and what is redundant, and thus can be removd. This ensures the audience isn't bombarded 
+                by too many pieces of information at once, 
+                improving the ease of navigation and the overall experience.
+            </p>
+            <h3>Responsive Elements</h3>
+            <p class="blah"> In order to make the webpage responsive,
+                I made two versions of the navigation bar (expanded and hamburger menu), 
+                and I used variable font sizes.
+                One challenge I faced when designing the webpage was to make the transition of font size
+                as smooth as possible when device dimension changes. It took many rounds of trial and error
+                to figure out the right sizes.
+                Even though the variable fonts worked for the majority of the content, the navigation bar 
+                became either too small or too crowded for the small screen size. 
+                Thus, I created a collapsable hamburger menu that replaces the navigation bar for smaller screens.
+                <br><br>
+                This experience taught me that UIUX design comes with repeated experimentation, 
+                and sometimes elements changes based on external variables (screen size in this case).
+
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,267 @@
+body {
+    font-family:'League Spartan';
+    padding: 0%;
+    margin: 0%;
+    cursor:default;
+}
+/*----------- NavBar ---------------*/
+.navbar {
+    display: flex;
+    text-align:center;
+    align-items: center;
+    gap: 3.2%;
+    padding: 2vw 2vw;
+    float: inline-start;
+    position:fixed;
+    top:0;
+    width:96%;
+    height:max-content;
+    background-color: rgb(255,255,255);
+    margin:0%;
+    overflow: auto;
+    list-style-type: none;
+}
+
+.push {
+    margin-left:auto;
+}
+
+.nav-item li {
+    display: inline;
+    padding: 2.5%;
+
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+}
+
+/*------------------Body ------------------*/
+.body-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw 0;
+}
+
+/*-------------- Intro --------------*/
+#title {
+    background-position: 25% 75%;
+    background-size: cover;
+    background-image: url(textbg1.jpg);
+    -webkit-background-clip: text;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    overflow-wrap: normal;
+    width: 85%;
+    text-align: center;
+}
+
+#obj {
+    color:#555;
+    font-style: italic;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+/*-------------- Containers --------------*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.row-start-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    margin: 3% 0;
+}
+
+/*------------- FONT SIZE -----------*/
+h1 {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 2vw 0 1.5vw;
+    font-weight: 600;
+}
+
+.sec-subtitle {
+    font-size: 3vw;
+    text-align: center;
+    margin: 1.5vw 0;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2vw;
+    font-weight:400;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.5vw;
+    margin: 5% auto 2%;
+    font-weight: 400;
+    text-align: center;;
+}
+
+.sub-subtitle {
+    font-size: 1.5vw;
+    color: #555;
+    font-style: italic;
+    font-weight: light;
+    font-weight: 300;
+}
+
+.blah {
+    width: 45%;
+    font-size: 1.5vw;
+    margin: 1vw 20% 2vw;
+    font-weight: 300;
+    text-align: left;
+}
+
+p, li {
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin: 0.6vw 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hyperlink {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*---------------- Research ---------------*/
+#aud-description {
+    width: 40%;
+}
+
+#aud-pic {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+
+/*------------ Scroll Bar ----------------*/
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid;
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+/*-------------- Precedent Work --------------*/
+.ex-pic{
+    width: 40vw;
+    height: 25vw;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.ex-text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ex-description {
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.expandable-pic {
+    transition:transform 0.25s ease;
+    margin-bottom: 1.5vw;
+}
+
+.expandable-pic:hover {
+    -webkit-transform:scale(1.25); /* or some other value */
+    transform:scale(1.25);
+}
+
+/*------------ Expansive Box ------------*/
+.expandable-box {
+    vertical-align: top;
+    height: auto !important;
+    margin: 0.5vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+}
+
+.box-title {
+    margin: 0;
+    width: 90%;
+    text-align: left;
+}
+  
+  .expanded-content {
+    display:none;
+    margin: 1vw 0.25vw;
+  }
+  
+  .show {
+    display: none;
+    text-decoration: none;
+  }
+  
+  .hide:target + .show {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .hide:target {
+    display: none;
+    text-decoration: none;
+  }
+  
+  .hide:target ~ .expanded-content {
+    display:inline;
+    text-decoration: none;
+  
+  }
+  
+  @media print {
+    .hide, .show {
+      display: none;
+    }
+  }
+

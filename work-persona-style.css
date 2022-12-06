@@ -1,0 +1,134 @@
+/*-------------- Intro --------------*/
+
+#title {
+    -webkit-text-fill-color: rgba(92, 220, 223, 0.5);
+    margin-top: 10%;
+    font-size: 7.5vw;
+    font-weight: 700;
+}
+
+/*----------------------- Background -----------*/
+#bg {
+    background-image: linear-gradient(white, rgba(92, 220, 223, 0.5));
+}
+
+/* ----------------------- Challenge ------------------*/
+#challenge{
+    background-color: rgba(92, 220, 223, 0.8)
+}
+
+
+/*--------------- Research -----------*/
+#research {
+  background-image:linear-gradient( rgba(92, 220, 223, 0.3), rgba(92, 220, 223, 0.1), white);
+}
+#diagram {
+    margin: 3vw 0;
+    width: 80%;
+    border-radius: 2vw;
+    border: 1px solid rgba(92, 220, 223, 0.8);
+    border-radius: 1vw;
+}
+
+.interface-info-item {
+    width: 60%;
+}
+
+#interface-info {
+    align-items: flex-start;
+    width: 60%;
+}
+
+#preliminary-analysis {
+    list-style: none;
+}
+
+.preliminary-analysis-item {
+    width: 28%;
+    text-align: center;
+}
+
+/*------------ OBS -------------*/
+#obvs {
+    flex-wrap: wrap;
+    width: 80%;
+}
+.expandable-box {
+    background-color: rgba(92, 220, 223, 0.3);
+    width: 35vw;
+    border-radius: 1vw;
+  }
+
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+/*----------- Interview -------------*/
+#interview {
+    width: 100%;
+    margin-bottom: 0;;
+}
+
+#interview-content {
+    width: 90%;
+    margin-bottom: 0;
+}
+
+#interview-questions {
+    height: 20vw;
+    overflow: scroll;
+    border: 1px solid rgba(92, 220, 223, 0.8);
+    border-radius: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    border-color: rgba(92, 220, 223, 0.5);
+}
+    
+::-webkit-scrollbar-thumb {
+    background: rgba(92, 220, 223, 0.8);
+    border-radius: 10px;
+}
+
+/*--------------- Persona ----------------*/
+.persona-item {
+    width: 45%;
+    border: 2px solid rgba(92, 220, 223, 0.5);
+    border-radius: 1vw;
+    padding: 2vw 0.5vw;
+    background-color: rgba(92, 220, 223, 0.2);
+    height: 58vw;
+}
+
+.person-img {
+   width: 20vw;
+   height: 20vw;
+   object-fit: cover;
+   border-radius: 1vw; 
+}
+
+.persona-pb-img {
+   width: 95%;
+   object-fit: cover;
+   border-radius: 1vw; 
+}
+
+.person-info {
+    width: 95%;
+}
+
+.person-mid {
+    width: 95%;
+    height: 20vw;
+}
+
+#storyboard {
+    width: 80%;
+}
+
+/*--------------- Reflection -----------*/
+#reflection {
+  background-color:  rgba(92, 220, 223, 0.3);
+}

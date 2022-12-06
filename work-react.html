@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="shared-style.css" rel="stylesheet" />
+        <link href="work-react-style.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=League Spartan:200,300,400,500,600,700,800' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Work - React</title>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li class="nav-item nav-left">
+                <a href="index.html#intro">AB</a>
+            </li>
+            <li class="nav-item nav-right push">
+                <a href="index.html#work">My Work</a>
+            </li>
+            <li class="nav-item nav-right">
+                <a href="about-me.html">About</a>
+            </li>
+        </ul>
+        <div class="body-item" id="intro">
+            <h1 id="title">React Application for Online Ordering</h1>
+            <h3 id="obj">Use React to build a webpage that allows online ordering with sort and filter functionalities</p>
+        </div>
+        <div class="body-item" id="bg">
+            <h2>Background</h2>
+            <p class="blah">
+                Many websites developed using html and css struggle with the redundancy of similar components,
+                as well as programing interactive components. This can be solved by using React, which is a JavaScript Liabrary
+                specifically designed for developing interactive web-based applications.
+                <br><br>
+                Having the website being interactive and have a uniform design across a large number of items 
+                is essential for businesses, one application being the product catelog and the online ordering workflow.
+                <br><br>
+                This project will be a learning experience for me to explore the use of states and components
+                in React, an essential part of interative web development.
+            </p>
+        </div>
+        <div class="body-item" id="challenge">
+            <h2>Challenge</h2>
+            <p class="blah">
+                In this project, I seek to develop an interactive web-based application using React 
+                for a fictional restaurant, "Golden Dragon Dim Sum Palace". 
+                <br><br>
+                The application will have filtering & sorting functionalities, a host of product offerings,
+                and a shopping cart.
+            </p>
+        </div> 
+        <div class="body-item" id="research">
+            <h2>Research</h2>
+            <div class="flex-container" id="aud">
+                <p class="sec-subtitle">Understanding the Audience</p>
+                <p class="blah">To determine what functionalities this application should provide,
+                    I want to get a better understanding of the needs and wants of the target audience for the applicastion.
+                    In this case, the target audience would be customers of a restaurant, looking to ordering online
+                    Drawing on real-life experiences, I have summarized the characteristics of those customers. 
+                </p>
+                <h3>Hungry Customers Looking for Food</h3>
+                <div class="row-container">
+                    <ul id="aud-description">
+                        <li class="persona-item"> Says
+                            <ul>
+                                <li>"So many food! I wonder which ones I should get."</li>
+                                <li>"How many shrimp dumplings did I just add to cart?"</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Thinks
+                            <ul>
+                                <li>Where is my favorite pork bun?</li>
+                                <li>Would this be too spicy?</li>
+                            </ul>
+                        </li> 
+                        <li class="persona-item"> Feels
+                            <ul>
+                                <li>Frustrated by spending too long on looking for particular food item.</li>
+                                <li>Bored by repetetive add and remove item.</li>
+                                <li>Hungryyyyyyy!</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Wants
+                            <ul>
+                                <li>Clear presentation of the current shopping cart.</li>
+                                <li>Easy add and remove item.s</li>
+                                <li>See and select item based on attributes such as spiciness.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img id="aud-pic" src="img-work-react/aud-order-food.png"/>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Precedent Works</p>
+                <p class="blah">I also studied three existing websites with online ordering functionalities,
+                    to understand what customers are used to and what can be improved.
+                    <br><br> 
+                    I chose P.F.Chang for its similarity to my application as an Asian restaurant, 
+                    Plant City for its sleek and modern design, 
+                    and Macy's for its advanced application of filtering & sorting functionalities over 
+                    its enermous product catalog.
+                </p>
+                <div class="row-container">
+                    <a class="hyperlink" href="https://order.pfchangs.com/store/9879/P.F.%20Chang's%20-%20Providence/27295/Family%20Meals?filter=72" target="_blank">
+                        <img class = "ex-pic expandable-pic" src="./img-work-react/pfchang.png" alt="clickable photo of P.F.Chang's website"/>
+                        <h4>Click to check out the website</h4>
+                    </a>
+                    <div class="ex-text">
+                        <h3>Online Ordering on P.F.Chang's Website</h3>
+                        <ul class="ex-description">
+                            <li>No Filtering or Sort Options; 
+                                customers can only jump to section by food category.</li> 
+                            <li>No view of the current shopping cart, 
+                                only a cart icon with number of items showing.</li>
+                            <li>No visible button indicating add/remove item; 
+                                customers need to click on pictures of food, which is not obvious.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row-container">
+                    <div class="ex-text">
+                        <h3>Online Ordering on Plant City's Website</h3>
+                        <ul class="ex-description">
+                            <li>No Filtering or Sort Options; 
+                                customers can only jump to section by food category.</li> 
+                            <li>Can view the current shopping cart, including total price.</li>
+                            <li>Can edit/remove item directly from Cart</li>
+                            <li>No visible button indicating add/remove item; 
+                                customers need to click on pictures of food, 
+                                but it has hovering effect to indicate that pictures are clickable.
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="hyperlink" href="https://order.spoton.com/so-plant-city-4499/providence-rhode-island/60b53a8c24b4c404e2639b98" target="_blank">
+                        <img class = "ex-pic expandable-pic" src="./img-work-react/plantcity.png" alt="clickable photo of Plant City's website"/>
+                        <h4>Click to check out the website</h4>
+                    </a>
+                </div>
+                <div class="row-container">
+                    <a class="hyperlink" href="https://www.macys.com/shop/womens-clothing/womens-tops/Sortby/PRICE_LOW_TO_HIGH?id=255" target="_blank">
+                        <img class = "ex-pic expandable-pic" src="./img-work-react/macys.png" alt="clickable photo of Macy's website"/>
+                        <h4>Click to check out the website</h4>
+                    </a>
+                    <div class="ex-text">
+                        <h3>Online Ordering on Macy's Website</h3>
+                        <ul class="ex-description">
+                            <li>A lot of filter options based on product type, gender, color, etc.</li> 
+                            <li>Filter based on price range, using checkbox and min-max input.</li>
+                            <li>Different sort options, mostly based on price (ex. low-to-high).</li>
+                            <li>No visible shopping cart.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="design">
+            <h2>Design</h2>
+            <p class="blah">Based on my study of existing restaurant ordering and online retailer's websites,
+                I have summarized several key points that will be incorporated into my design.
+            </p>
+            <p class="sec-subtitle">Design Choices</p>
+            <div class="row-start-container" id="design-choices">
+                <div class="flex-container dc-item">
+                    <h4>Filters</h4>
+                    <p>Similar to restaurants using food categories to 
+                        allow customers jumping to different sections of the menu,
+                        my application will have filters based on attributes of food.
+                        Given that the menu consists primarily of dim sum, I decided to
+                        implement filter based on taste and cooking method.
+                        <br><br>
+                        Moreover, inspired by Macy's price filter, 
+                        I decided to implement a min-max price filter. 
+                        Since dim sum's prices are similar, I will use a slider for customers 
+                        to input price range.
+                    </p>
+                </div>
+                <div class="flex-container dc-item">
+                    <h4>Sort</h4>
+                    <p>
+                        I chose to implement sort based on price (low-to-high and high-to-low), 
+                        considering the budgeting needs of potential customers.
+                        Also, I added an alphabetical sort to help customers find their desired dish 
+                        based on name. This feature is mostly for returning customers or those familiar
+                        with dim sum already, such that they already know the dish names by heart.
+                    </p>
+                </div>
+                <div class="flex-container dc-item">
+                    <h4>Shopping Cart</h4>
+                    <p>
+                        Similar to Plant City, my application will have the shopping cart on the side,
+                        updating instantaneously. I made this choice because, unlike clothes shopping, 
+                        customers usually edit the cart a lot, so a cart on the side will be much more
+                        efficient for the editing process.
+                        <br><br>
+                        Also, the shopping cart will allow add/remove/remove-all directly from the cart,
+                        so that customers won't need to repeat one action of add/remove.
+                    </p>
+                </div>
+                <div class="flex-container dc-item">
+                    <h4>Button to Add Item</h4>
+                    <p>
+                        As the menu of this application is rather simple, I will add a button of "add-to-cart"
+                        below each item. This is meant to clarify the process of adding to cart as much as possible.
+                    </p>
+                </div>
+            </div> 
+        </div>
+        <div class="body-item" id="result">
+            <h2>Result</h2>
+            <p class="blah">
+                After making the key design choices, I went ahead and built a web-based application in React.
+                <br><br>
+                Click on the picture below to visit the site, and click on the expandable boxes to learn about key features 
+                implemented in my application
+            </p>
+            <div class="row-start-container">
+                <a class="hyperlink" href="https://activebunny123.github.io/hwk-development/" target="_blank">
+                    <img class = "ex-pic expandable-pic" id="my-app" src="./img-work-react/my-react-app.png" alt="clickable photo of my react app"/>
+                    <h4>Click to check out my application</h4>
+                </a>
+                <div>
+                    <h3 id="key-feature">Key Features</h3>
+                    <div class="expandable-box">
+                        <a href="#int-hide1" class="hide row-container" id="int-hide1">
+                            <h4 class="box-title">Filter & Sort Functionalities</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show1" class="show row-container" id="int-show1">
+                            <h4 class="box-title">Filter & Sort Functionalities</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <p>I have implemented 2 filters based on product attributes (cooking method, taste) using radio select,
+                                1 price filter that allows customers to set minimum and maximum price using a slider,
+                                and 3 sorting mechanisms based on price and product name using radio select.
+                                The filters and sorts can be layered or reversed easily.
+                                <br><br>
+                                Moreover, I added a button of "apply filters" to give customer full control
+                                over what filter combination they want. There's also the "remove all filter" button that will return
+                                the display to its default setting.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="expandable-box">
+                        <a href="#int-hide2" class="hide row-container" id="int-hide2">
+                            <h4 class="box-title">Shopping Cart with Instantaneous Update and In-Cart Edits</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show2" class="show row-container" id="int-show2">
+                            <h4 class="box-title">Shopping Cart with Instantaneous Update and In-Cart Edits</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <p>The shopping cart is implemented such that it reflects any immediate changes that the customer has made,
+                                including count for each item, and the total price.
+                                <br><br>
+                                Further, each item in the cart has "add","remove", and "remove all", which allows the customer to manage 
+                                contents of the cart without leaving the cart section, making the process of edit the cart much more convenient.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="reflection">
+            <h2>Reflection</h2>
+            <h3>Exploring More Types of Components</h3>
+            <p class="blah">
+                I have used radio select and slider from the React library in this project.
+                Going forward I would like to explore more components that can play into 
+                the design of my web app. For instance, a drop down menu or a side bar 
+                could be a better host of the filter & sort, especially if the number of filter / sort categories grow.
+            </p>
+            <h3>Increasing Complexity of the Application</h3>
+            <p class="blah">
+                Currently, every item has a single value for a given attribute. 
+                To make this application more realistic, I hope to experiment with
+                assigning items multiple values for a given attribute, and implement filter functions based on that.
+                <br><br>
+                Additionally, I want to learn to implement a recommendation algorithm, 
+                potentially leveraging ML and AI technologies, which will make this application more realistic.
+            </p>
+        </div>
+    </body>
+</html>

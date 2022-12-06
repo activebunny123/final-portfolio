@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="shared-style.css" rel="stylesheet" />
+        <link href="work-persona-style.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=League Spartan:200,300,400,500,600,700,800' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Work - Persona</title>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li class="nav-item nav-left">
+                <a href="index.html#intro">AB</a>
+            </li>
+            <li class="nav-item nav-right push">
+                <a href="index.html#work">My Work</a>
+            </li>
+            <li class="nav-item nav-right">
+                <a href="about-me.html">About</a>
+            </li>
+        </ul>
+        <div class="body-item" id="intro">
+            <h1 id="title">User Research for Drink Dispenser Interface</h1>
+            <h3 id="obj">Conduct a user research to improve dining hall drink dispensers' interface </p>
+        </div>
+        <div class="body-item" id="bg">
+            <h2>Background</h2>
+            <p class="blah">
+                The drink dispensers in Brown University's Sharpe Refactory dining hall
+                are the go-to places for students and staff looking for a refreshing drink 
+                to quench their thirst or add some flavor to their meals.
+                However, those drink dispensers have interfaces that can be hard to operate and sometimes bring 
+                frustration to students. 
+                <br><br>
+                Therefore, I want to understand the exact functionality of the drink dispensers' interface,
+                and the sore spots for users.
+            </p>
+        </div>
+        <div class="body-item" id="challenge">
+            <h2>Challenge</h2>
+            <p class="blah">
+                I seek to conduct a user research among the students that interact with the drink dispensers' interface,
+                and learn about their experience. Then, I will analyze the users' feedback and construct personas and storyboard,
+                which will help to uncover areas of improvement for the interface.
+            </p>
+        </div>
+        <div class="body-item" id="research">
+            <h2>Research</h2>
+            <p class="blah">
+                To systematically analyze the usability and issues of drink dispenser's interface,
+                I start with developing a research methodology, which incolves 
+                understanding the interface, observing users, and interviewing users.
+            </p>
+            <div class="flex-container" id="method">
+                <p class="sec-subtitle">Methodology</p>
+                <ul>
+                    <li>Observe the drink dispenser's interface, document its workflow and functionality</li>
+                    <li>Perform a preliminary analysis of the interface based on usability principles</li>
+                    <li>Observe 3 students who interact with one such interface, and note down any commonalities</li>
+                    <li>Interview the 3 students on their experience interacting with the interface</li>
+                    <li>Create personas and a storyboard based on the interview responses</li>
+                </ul>
+            </div>
+            <div class="flex-container" id="interface">
+                <p class="sec-subtitle">Interface Workflow & Analysis</p>
+                <img id="diagram" src="img-work-persona/drink-dispenser-diagram.jpg"/>
+                    <div class="flex-container interface-info-item" id="workflow">
+                        <h3>Workflow</h3>
+                        <p>
+                            The drink dispenser provides various drinks. 
+                            Its default home screen shows buttons for water, other drinks, and filter options. 
+                            A grey drink button indicates unavailability. 
+                            Once a button is pressed, it proceeds to a drink screen that 
+                            shows flavor options and calorie information. 
+                            After making the final selection, 
+                            the user can press their cups against outlets for either ice or drink.
+                        </p>
+                    </div>
+                    <div class="flex-container interface-info-item" id="interface-analysis">
+                        <h3>Preliminary Analysis</h3>
+                        <ul class="row-start-container" id="preliminary-analysis">
+                            <li class="preliminary-analysis-item"><p style="font-weight:400;">Learnability</p>
+                                Many options crowded on the homepage, 
+                                first-time users under time constraint may not be 
+                                able to see the grouping relationship. Based on personal experience, the users
+                                should be able to operate without difficulty after a few times.
+                            </li>
+                            <li class="preliminary-analysis-item"><p style="font-weight:400;">Memorability</p>
+                                Shouldn't be an issue as most 
+                                users interact with the drink dispenser at least a few times a week.
+                            </li>
+                            <li class="preliminary-analysis-item"><p style="font-weight:400;">Usability</p>
+                                The home page doesn't reflect unavailable 
+                                flavors and the filter options are very small. 
+                                Those can interfere with users' experience.
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="flex-container" id="obs">
+                <p class="sec-subtitle">Observation</p>
+                <p class="blah">After detailed investigation of the interface, 
+                    I proceed to observe users of the drink dispenser interface in the dining hall.
+                    I chose three users of seemingly different background, 
+                    and I watched them operating the interface from start to end.
+                    Below are the highlights of my observation.
+                </p>
+                <div class="row-container" id="obvs">
+                    <div class="expandable-box">
+                        <a href="#hide1" class="hide row-container" id="hide1">
+                            <h4 class="box-title">One Iteration at the Dispenser Takes 15 Seconds</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#show1" class="show row-container" id="show1">
+                            <h4 class="box-title">One Iteration at the Dispenser Takes 15 Seconds</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                          <p>The three interviewees A, B, and C each spent 17, 26, and 14 seconds using the machine, where B ran two iterations. Therefore, one iteration takes an average of 15 seconds to complete.</p>
+                        </div>
+                    </div>
+                    <div class="expandable-box">
+                        <a href="#hide2" class="hide row-container" id="hide2">
+                            <h4 class="box-title">Hesitation Correlates with Availability of Choices</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#show2" class="show row-container" id="show2">
+                            <h4 class="box-title">Hesitation Correlates with Availability of Choices</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <p>A spent 8 out of 13 seconds on the drink page, where multiple flavors were present.
+                                <br><br>
+                                B spent 20 out of 26 seconds on the iteration where he got lemonade, which came with over 10 choices. He only spent 6 seconds on getting water that has a single option.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="expandable-box">
+                        <a href="#hide3" class="hide row-container" id="hide3">
+                            <h4 class="box-title">Smooth Outlet Usage</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#show3" class="show row-container" id="show3">
+                            <h4 class="box-title">Smooth Outlet Usage</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <p>All three interviewees used ice and drink outlets with no visible hesitation or difficulty.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="expandable-box">
+                        <a href="#hide4" class="hide row-container" id="hide4">
+                            <h4 class="box-title">Soft Drink Dominates</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#show4" class="show row-container" id="show4">
+                            <h4 class="box-title">Soft Drink Dominates</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <p>Interviewees each got root beer, lemonade, and coca cola. No flavored water or water was obtained for drinking purpose.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container" id="interview">
+                <p class="sec-subtitle">Interview</p>
+                <p class="blah">Based on my study of the interface as well as my observation of the users,
+                    I came up with a list of interview questions.
+                    <br>
+                    <br>
+                    Those questions address the user's intention, expectation, interaction with major components of the interface,
+                    any challenge they faced, and their thoughts on improvement.
+                    <br>
+                    <br>
+                    I then interviewed the users and summarized the key points from their responses in the
+                    expandable boxes on the right.
+                </p>
+                <div class="row-container row-start-container" id="interview-content">
+                    <div class="flex-container">
+                        <h3>Interview Questions</h3>
+                        <ul id="interview-questions">
+                            <li>Why do you use the drinking machine?
+                            </li>
+                            <li>What drink(s) do you get most often?
+                            </li>
+                            <li>What is your expectation for the process of operating the machine?</li>
+                            <li>What decisions did you make before coming to the machine? 
+                            </li>
+                            <li>What decisions did you make while using the machine?
+                            </li>
+                            <li>What do you think of the grouping of the logos? 
+                            </li>
+                            <li>What do you think of the placement of the “water” button?
+                            </li>
+                            <li>Is darkening the color a good indicator of the drink is gone?
+                            </li>
+                            <li>What do you think of the filter categories?
+                            </li>
+                            <li>Is everything on the home screen accessible and legible?
+                            </li>
+                            <li>Do you find the calorie information on the drink screen helpful? 
+                            </li>
+                            <li>Is the presentation of different flavors on the drink screen clear?
+                            </li>
+                            <li>Is the outlet design intuitive?
+                            </li>
+                            <li>What hurdles did you face when using the machine, if any?
+                            </li>
+                            <li>What additional functions would you like to add to the machine?
+                            </li>
+                            <li>Describe your idea process of using the machine.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Summary & Analysis of Interview Responses</h3>
+                        <div class="expandable-box">
+                            <a href="#int-hide1" class="hide row-container" id="int-hide1">
+                                <h4 class="box-title">Obvious "Water" Button on Home Screen</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                            </a>
+                            <a href="#int-show1" class="show row-container" id="int-show1">
+                                <h4 class="box-title">Obvious "Water" Button on Home Screen</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_less
+                                </span>
+                            </a>
+                            <div class="expanded-content">
+                                <p>All interviewees expected easy access to hydration, and they most frequently get water. They were satisfied with the standalone "water" button, though interviewee A suggested that making water the default option would be ideal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="expandable-box">
+                            <a href="#int-hide2" class="hide row-container" id="int-hide2">
+                                <h4 class="box-title">Grouping of the Drinks on Home Screen</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                            </a>
+                            <a href="#int-show2" class="show row-container" id="int-show2">
+                                <h4 class="box-title">Grouping of the Drinks on Home Screen</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_less
+                                </span>
+                            </a>
+                            <div class="expanded-content">
+                                <p>All interviewees chose drink and flavor while using the machine. The clear organization of the home screen helps the decision-making process, as it places the most common beverage choice - soda - in the middle. However, interviewee C found some side groups confusing, and that adding a title to each group indicating the type of drinks would be helpful.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="expandable-box">
+                            <a href="#int-hide3" class="hide row-container" id="int-hide3">
+                                <h4 class="box-title">Inconspicuous Filter Options on Home Screen</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                            </a>
+                            <a href="#int-show3" class="show row-container" id="int-show3">
+                                <h4 class="box-title">Inconspicuous Filter Options on Home Screen</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_less
+                                </span>
+                            </a>
+                            <div class="expanded-content">
+                                <p>None of the interviewees noticed the filter options at the bottom of the home screen, and they suggested a better presentation of those layouts would be helpful.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="expandable-box">
+                            <a href="#int-hide4" class="hide row-container" id="int-hide4">
+                                <h4 class="box-title">2 Main Sources of Frustration</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                            </a>
+                            <a href="#int-show4" class="show row-container" id="int-show4">
+                                <h4 class="box-title">2 Main Sources of Frustration</h4>
+                                <span class="material-symbols-outlined">
+                                    expand_less
+                                </span>
+                            </a>
+                            <div class="expanded-content">
+                                <p style="font-weight:400">Drink wanted was gone</p>
+                                <p>Interviewee B suggested that different drinking machines in the same dining hall should communicate and indicate if a drink is available in another machine.
+                                    <br><br>
+                                    Interviewee C complained that a drink logo stays colored even if some flavors are gone
+                                </p>
+                                <p style="font-weight:400">Couldn’t Customize the Flavor</p>
+                                <p>
+                                    Interviewee A hoped to choose to mix drinks with one iteration.
+                                    <br><br>
+                                    Interviewee B hoped to choose dilution levels (mix drink and water) with one iteration.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-item" id="result">
+            <h2>Result</h2>
+            <p class="blah">Based on interview responses and my observation,
+                I then created two personas to reflect the users of the dining hall drink dispensers.
+            </p>
+            <div class="flex-container">
+                <p class="sec-subtitle">Personas</p> 
+                <div class="row-container">
+                    <div class="persona-item flex-container">
+                            <h3>Exhausted John</h3>
+                            <p>A student-athelete having dinner with teammates after practice</p>
+                        <div class="row-start-container person-mid">
+                            <img class="person-img" src="img-work-persona/person1.jpg"/>
+                            <div>
+                                <h4 style="margin-top: 0;">Problems</h4>
+                                <ul style="margin: 0;">
+                                    <li>Confusing and unclear grouping of some drinks on the home page.</li>
+                                    <li>The low-calorie filter is not very obvious. John didn't know such option exists.</li>
+                                    <li>Many drinks are unavailable and it's unclear if they might be available at other machines.</li>
+                                    <li>John has to operate the machine twice to mix two drinks.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <img class="persona-pb-img" src="img-work-persona/persona-pb-1.png">
+                    </div>
+                    <div class="persona-item flex-container">
+                        <h3>Busy Sasha</h3>
+                        <p>A student getting a quick lunch before heading to afternoon classes</p>
+                    <div class="row-start-container person-mid">
+                        <img class="person-img" src="img-work-persona/person2.jpg"/>
+                        <div>
+                            <h4 style="margin-top: 0;">Problems</h4>
+                            <ul style="margin: 0;">
+                                <li>Home screen doesn't necessarily reflect availability of particular flavors</li>
+                                <li>Sasha has to operate the machine twice to dilute drink.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="persona-pb-img" src="img-work-persona/persona-pb-2.png">
+                </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="sec-subtitle">Storyboard</p> 
+                <p class="blah">To further illustrate a person's experience interacting with 
+                    a dining hall dispenser to provide insight into the user's pains and gains, 
+                    I have created a storyboard for the persona Sasha.
+                </p>
+                <img src="img-work-persona/storyboard.jpg" id="storyboard">
+            </div>
+        </div>
+        <div class="body-item" id="reflection">
+            <h2>Reflection</h2>
+            <h3>More Succinct Interview</h3>
+            <p class="blah">
+                I have prepared many interview questions to cover different aspects of an user's experience interacting 
+                with the chosen interface. such interview should be more natural and conversational.
+                Going forward, I will reduce the number of interview questions, though keep the more detailed ones as back up.
+                This will help to make the 
+            </p>
+            <h3>Increasing Number of Interviewees</h3>
+            <p class="blah">
+                To build personas that are reflective a larger population of users, 
+                I need to increase the number of people I observe and interview. Furthermore,
+                I should also note down specifics of the users' demographics and personal background,
+                which will help to build a more comprehensive user portfile / persona.
+            </p>
+        </div>
+    </body>
+</html>
