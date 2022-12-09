@@ -4,6 +4,7 @@
         <link href="shared-style.css" rel="stylesheet" />
         <link href="work-redesign-style.css" rel="stylesheet" />
         <link href='https://fonts.googleapis.com/css?family=League Spartan:200,300,400,500,600,700,800' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <title>Work - Redesign</title>
     </head>
     <body>
@@ -86,14 +87,22 @@
                     <img id="aud-pic" src="img-work-redesign/audience-food.png"/>
                 </div>
                 <p class="sec-subtitle">Identify Problems</p>
-                <p class="blah">Before making any design, I want to understand what issues the original website has 
-                    and how I can address those issues.
-                    <br><br>
-                    Thus, I have studied Yan's website under different screen sizes,
-                    which are displayed below. 
-                </p>
+                <div class="row-container" id="identify-pb-intro">
+                    <div class="ex-text">
+                        <p class="ex-description">Before making any design, I want to understand what issues the current website has 
+                            and how I can address those issues.
+                            <br><br>
+                            Thus, I have studied Yan's website under different screen sizes,
+                            which are displayed below. 
+                        </p>
+                    </div>
+                    <a class="hyperlink" href="https://www.yansri.com/" target="_blank">
+                        <img class="ex-pic expandable-pic" id="yans-website" src="./img-work-redesign/original.png" alt="photo of Yan's webite"/>
+                        <h4>Click to check out Yan's current website</h4>
+                    </a>
+                </div>
                 <div class="flex-container" id="original">
-                    <h3>Original Website Displayed in Different Dimensions</h3>
+                    <h3>Current Website Displayed in Different Dimensions</h3>
                     <p class="sub-subtitle">Click on Figures to Expand</p>
                     <div class="row-container" id="original-websites">
                         <a class="hyperlink" href="./img-work-redesign/original-large.png" target="_blank">
@@ -115,136 +124,188 @@
                     accessibility issues (using WAVE Website Accessibility Evaluation Tool), which are listed below.
                 </p>
                 <div class="row-start-container" id="problems">
-                    <div class="pb-item" id="pb1">
-                        <h4>Learnability</h4>
-                        <ul id="pb-list">
-                            <li>
-                                <p style="font-weight:400">Unclear Login Option on the Left</p>
-                                <ul>
-                                    <li>
-                                        Conventionally on the right
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Disconnected Information</p>
-                                <ul>
-                                    <li>
-                                        Location and Hours separated by the logo
-                                    </li>
-                                    <li>
-                                        isolated accepted forms of payment
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="expandable-box">
+                        <a href="#int-hide1" class="hide row-container" id="int-hide1">
+                            <h4 class="box-title">Learnability</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show1" class="show row-container" id="int-show1">
+                            <h4 class="box-title">Learnability</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <ul id="pb-list">
+                                <li>
+                                    <p class="sub-list-title">Unclear Login Option on the Left</p>
+                                    <ul>
+                                        <li>
+                                            Conventionally on the right
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Disconnected Information</p>
+                                    <ul>
+                                        <li>
+                                            Location and Hours separated by the logo
+                                        </li>
+                                        <li>
+                                            isolated accepted forms of payment
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul> 
+                        </div>
                     </div>
-                    <div class="pb-item" id="pb2">
-                        <h4>Memorability</h4>
-                        <ul id="pb-list">
-                            <li>
-                                <p style="font-weight:400">Many Categories with the same design
-                                </p>
-                                <ul>
-                                    <li>
-                                        users won't remember the category of their desired food
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Unconventional Design</p>
-                                <p>Users forget Yan's specific placement of things</p>
-                                <ul>
-                                    <li>
-                                        Login on the left
-                                    </li>
-                                    <li>
-                                        search bar at the bottom
-                                    </li>
-                                    <li>
-                                        Small Screen: Location info at the bottom
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Disconnected Information</p>
-                                <ul>
-                                    <li>
-                                        Location and Hours separated by the logo
-                                    </li>
-                                    <li>
-                                        isolated accepted forms of payment
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="expandable-box">
+                        <a href="#int-hide2" class="hide row-container" id="int-hide2">
+                            <h4 class="box-title">Memorability</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show2" class="show row-container" id="int-show2">
+                            <h4 class="box-title">Memorability</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <ul id="pb-list">
+                                <li>
+                                    <p class="sub-list-title">Many Categories with the same design
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            users won't remember the category of their desired food
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Unconventional Design</p>
+                                    <p>Users forget Yan's specific placement of things</p>
+                                    <ul>
+                                        <li>
+                                            Login on the left
+                                        </li>
+                                        <li>
+                                            search bar at the bottom
+                                        </li>
+                                        <li>
+                                            Small Screen: Location info at the bottom
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Disconnected Information</p>
+                                    <ul>
+                                        <li>
+                                            Location and Hours separated by the logo
+                                        </li>
+                                        <li>
+                                            isolated accepted forms of payment
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="pb-item" id="pb3">
-                        <h4>Usability</h4>
-                        <ul id="pb-list">
-                            <li>
-                                <p style="font-weight:400">Too Much Text!!!
-                                </p>
-                                <ul>
-                                    <li>
-                                        Small screen: need to scroll one full page to access main functions (order online)
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Search Bar & Contact Info</p>
-                                <ul>
-                                    <li>
-                                        inconvenient placement at the bottom of the page
-                                    </li>
-                                    <li>
-                                        Take TOOO LONG TO FIND!
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Medium & Small Screen</p>
-                                <ul>
-                                    <li>
-                                        Hard-to-find menu categories
-                                    </li>
-                                    <li>
-                                        Overly small font for Hours
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="expandable-box">
+                        <a href="#int-hide3" class="hide row-container" id="int-hide3">
+                            <h4 class="box-title">Usability</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show3" class="show row-container" id="int-show3">
+                            <h4 class="box-title">Usability</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <ul id="pb-list">
+                                <li>
+                                    <p class="sub-list-title">Too Much Text!!!
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Small screen: need to scroll one full page to access main functions (order online)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Search Bar & Contact Info</p>
+                                    <ul>
+                                        <li>
+                                            inconvenient placement at the bottom of the page
+                                        </li>
+                                        <li>
+                                            Take TOOO LONG TO FIND!
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Medium & Small Screen</p>
+                                    <ul>
+                                        <li>
+                                            Hard-to-find menu categories
+                                        </li>
+                                        <li>
+                                            Overly small font for Hours
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="pb-item" id="pb4">
-                        <h4>Accessibility</h4>
-                        <ul id="pb-list">
-                            <li>
-                                <p style="font-weight:400">Very Small Text -- Hard to Read
-                                </p>
-                                <ul>
-                                    <li>
-                                        Each menu category has an associated number in overly small font
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Redundant Link -- confusion</p>
-                                <ul>
-                                    <li>
-                                        Multiple link/buttons lead to the same destination
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p style="font-weight:400">Multiple Form Labels</p>
-                                <p>multiple labels associated with one input</p>
-                                <ul>
-                                    <li>
-                                        assistive tech unable to read the appropriate label
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="expandable-box">
+                        <a href="#int-hide4" class="hide row-container" id="int-hide4">
+                            <h4 class="box-title">Accessibility</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show4" class="show row-container" id="int-show4">
+                            <h4 class="box-title">Accessibility</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <ul id="pb-list">
+                                <li>
+                                    <p class="sub-list-title">Very Small Text -- Hard to Read
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Each menu category has an associated number in overly small font
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Redundant Link -- confusion</p>
+                                    <ul>
+                                        <li>
+                                            Multiple link/buttons lead to the same destination
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="sub-list-title">Multiple Form Labels</p>
+                                    <p>multiple labels associated with one input</p>
+                                    <ul>
+                                        <li>
+                                            assistive tech unable to read the appropriate label
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,21 +399,12 @@
             <p class="blah">Based on the high-fi design, I made a responsive home page for Yan's Cuisine. 
                 This page incorporated elements of the original page and the design principles.
             </p>
-            <p class="sub-subtitle">Click on Figures to Visit Page</p>
-                <div id="webpages">
-                    <div class="webpage-item" id="original">
-                        <a href="https://www.yansri.com/" target="_blank">
-                            <img class="webpage-img" src="./img-work-redesign/original.png" alt="photo of Yan's webite">
-                        </a>
-                        <h3 style="font-weight: 400;">Original</h3>
-                    </div>
-                    <div class="webpage-item" id="redesigned">
-                        <a href="https://activebunny123.github.io/cs1300-hwk2-redesign-yans/" target="_blank">
-                            <img class="webpage-img" src="./img-work-redesign/redesign.png" alt="photo of redesiigned website">
-                        </a>
-                        <h3 style="font-weight: 400;">Redesigned</h3>
-                    </div>
-                </div>
+            <p class="sub-subtitle">Click on Figure to Visit Page</p>
+            <div class="webpage-item" id="redesigned">
+                <a class="hyperlink" href="https://activebunny123.github.io/cs1300-hwk2-redesign-yans/" target="_blank">
+                    <img class="webpage-img expandable-pic" src="./img-work-redesign/redesign.png" alt="photo of redesiigned website">
+                </a>
+            </div>
         </div>
         <div class="body-item" id="reflection">
             <h2>Reflection</h2>

@@ -43,8 +43,16 @@
     font-weight: 400;
 }
 
+#identify-pb-intro {
+    width: 70%
+}
+#yans-website {
+    width: 30vw;
+    height: 30vh;
+}
+
 #original {
-    margin: 5vw 0;
+    margin: 2vw 0 3vw;
     width: 80%;
 }
 
@@ -60,17 +68,25 @@
 #problems {
     flex-wrap:wrap;
     width: 70%;
+    margin-top: 1vh;
 }
 
-.pb-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height:30vw;
-    width:45%;
+.material-symbols-outlined {
+    font-size: 2vw;
 }
 
+a{
+    color: black;
+}
+
+.expandable-box {
+    width: 30vw;
+    background-color: rgba(224, 164, 164, 0.5);
+}
+
+.sub-list-title {
+    font-weight: 400;
+}
 
 #pb-list {
     padding: 2% 10%;
@@ -81,6 +97,9 @@ ul {
     padding-inline-start: 10%;
 }
 
+.ex-pic {
+    border: 2px solid rgba(224, 164, 164, 0.8);
+}
 
 /* ------- Design -------------*/
 #low-fi {
@@ -113,6 +132,10 @@ ul {
     max-width: 60%;
 }
 
+#high-fi-vdsg {
+    border-radius: 2vw;
+}
+
 #high-fi-med-ann {
     display: flex;
     flex-direction: column;
@@ -126,7 +149,7 @@ ul {
 
 .dc-item {
     max-width: 25%;
-    text-align: center;
+    text-align: left;
 }
 
 /*------------------- Result -------------------*/
@@ -147,17 +170,6 @@ ul {
     height: 20vw;
     overflow: hidden;
     border-radius: 10%;
-    box-shadow: 3px 5px 5px rgb(224, 164, 164, 0.4);
+    border: 1px solid rgba(224, 164, 164, 0.3);
     margin-bottom: 1vw;
-}
-
-.webpage-item {
-    width: fit-content;
-    height: fit-content;
-    margin: 2% 5%;
-    text-align: center;
-}
-
-.webpage-img:hover {
-    transform: scale(1.15);
 }

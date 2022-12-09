@@ -5,17 +5,34 @@ body {
     cursor:default;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: black;  
+}
+
+/*------------------------- Navebar ------------------------*/
+
 .navbar {
     display: flex;
     text-align:center;
     align-items: center;
     gap: 3.2%;
-    padding: 2vw 2vw;
+    padding: 1vh 2vw;
     float: inline-start;
     position:fixed;
     top:0;
     width:96%;
-    height:max-content;
+    height:6vh;
     background-color: rgb(255, 255, 255);
     margin:0%;
     overflow: auto;
@@ -41,22 +58,63 @@ body {
     color: black;
 }
 
+
+/*----------------------- Content ----------------------*/
+
 .index-grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #intro-text{
     width: 60%;
-    margin-top: 10vw;
     margin-left: 3vw;
-    padding-top: 3vw;
+    padding-top: 35vh;
 }
 
 #intro {
-    background-image: url();
+    min-height: 100vh;
 }
+
+#title {
+    background-image: url(gradient2.jpg);
+    background-size: 60vw 10vw;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#subtitle {
+    font-weight: 300;
+    color:#555;
+    font-size: 3vw;
+    width: 80%;
+}
+/*------------------ Typing effect ------------------*/
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #555; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /*letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end 4.1;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #555 }
+  }
 
 /* -------------------- MY WORK SECTION -----------------*/
 #work {
@@ -64,6 +122,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 3vw;
+    width: 100%;
 }
 
 #work-container {
@@ -72,10 +131,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .work-item {
-    width: 40%;
+    width: 35vw;
     height: max-content;
     border: 2px solid lightgray;
     border-radius: 2vw;
@@ -101,7 +161,7 @@ body {
 
 .work-item-pic {
     width: 100%;
-    height: 30vw;
+    height: 60vh;
     object-fit: cover;
     border-radius: 2vw 2vw 0 0;
 
@@ -109,7 +169,7 @@ body {
 
 .work-item-text {
     width: 90%;
-    height: 20vw;
+    height: 18vw;
     margin: 0 1vw;
     text-align: left;
 }
@@ -153,13 +213,9 @@ h2 {
 }
 
 h3 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 600;
     margin: 1vw 0;
-}
-
-.subtitle {
-    font-weight: 300;
 }
 
 h4 {
@@ -170,5 +226,6 @@ h4 {
 }
 
 p {
-    font-size: 2vw;
+    font-size: 1.8vw;
+    font-weight: 300;
 }

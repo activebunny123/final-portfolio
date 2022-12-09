@@ -112,7 +112,11 @@
 
 /*--------Crtiques ----------*/
 #critiques {
-    width: 50%
+    width: 100%;
+}
+
+#critique-item {
+    width: 50%;
 }
 
 /*---------FINAL HIGH FI --------------*/
@@ -149,6 +153,7 @@ video {
     width: 80%;
     align-items: flex-start;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .two-row-item {
@@ -159,6 +164,10 @@ video {
     border: 1px solid rgba(133, 154, 210, 0.5);
     border-radius: 1vw;
     height: 20vw;
+}
+
+#email {
+    width: 80%;
 }
 
 /*------------ Reflection ------*/
