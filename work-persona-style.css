@@ -1,7 +1,7 @@
 /*-------------- Intro --------------*/
 
 #title {
-    -webkit-text-fill-color: rgba(92, 220, 223, 0.5);
+    -webkit-text-fill-color: rgba(92, 220, 223, 0.65);
     margin-top: 10%;
     font-size: 7.5vw;
     font-weight: 700;
@@ -9,18 +9,18 @@
 
 /*----------------------- Background -----------*/
 #bg {
-    background-image: linear-gradient(white, rgba(92, 220, 223, 0.5));
+    background-image: linear-gradient(white, rgba(92, 220, 223, 0.3));
 }
 
 /* ----------------------- Challenge ------------------*/
 #challenge{
-    background-color: rgba(92, 220, 223, 0.8)
+    background-color: rgba(92, 220, 223, 0.6)
 }
 
 
 /*--------------- Research -----------*/
 #research {
-  background-image:linear-gradient( rgba(92, 220, 223, 0.3), rgba(92, 220, 223, 0.1), white);
+  background-image:linear-gradient( rgba(92, 220, 223, 0.2),  white, rgba(92, 220, 223, 0.1));
 }
 #diagram {
     margin: 3vw 0;
@@ -30,26 +30,35 @@
     border-radius: 1vw;
 }
 
+#interface {
+    margin-bottom: 2vh;
+}
+
 .interface-info-item {
     width: 60%;
+    margin-bottom: 5vh;
 }
 
 #interface-info {
     align-items: flex-start;
     width: 60%;
+    margin-bottom: 2vh;
 }
 
 #preliminary-analysis {
     list-style: none;
+    margin-bottom: 0;
 }
 
 .preliminary-analysis-item {
     width: 28%;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 0;
 }
 
 /*------------ OBS -------------*/
 #obvs {
+    padding-top: 0;
     flex-wrap: wrap;
     width: 80%;
 }
@@ -130,5 +139,5 @@
 
 /*--------------- Reflection -----------*/
 #reflection {
-  background-color:  rgba(92, 220, 223, 0.3);
+  background-color:  rgba(92, 220, 223, 0.2);
 }

@@ -1,57 +1,49 @@
 /*-------------- Intro --------------*/
 
 #title {
-    -webkit-text-fill-color: rgb(252, 213, 144, 0.8);
+    -webkit-text-fill-color: rgba(255, 202, 110, 0.8);
 }
 
 ::-webkit-scrollbar-track {
-    border: 1px solid rgb(252, 213, 144, 0.5);
+    border: 1px solid rgb(255, 202, 110, 0.5);
     border-radius: 10px;
 }
     
 ::-webkit-scrollbar-thumb {
-    background: rgb(252, 213, 144, 0.8);  
+    background: rgb(255, 202, 110, 0.8);  
     border-radius: 10px;
 }
 
 /*----------------------- Background -----------*/
 #bg {
-    background-image: linear-gradient(white, rgb(252, 213, 144, 0.5));
+    background-image: linear-gradient(white, rgb(255, 202, 110, 0.5));
 }
 
 /* ----------------------- Challenge ------------------*/
 #challenge{
-    background-color: rgb(252, 213, 144, 0.8)
+    background-color: rgb(255, 202, 110, 0.8)
 }
 /*---------------Research ----------------*/
 #research {
-    background-image: linear-gradient( rgb(252, 213, 144, 0.3), white);
+    background-image: linear-gradient( rgb(255, 202, 110, 0.3), rgb(255, 202, 110, 0.1), white);
+    padding-bottom: 0;
 }
 .persona-item {
     font-weight: 400;
 }
 
 .ex-pic {
-    border: 2px solid rgba(255, 224, 113, 0.5);
+    border: 2px solid rgba(255, 202, 110, 0.5);
 }
 
 /*-------------- Design Choice ---------*/
 #design {
-    background-image: linear-gradient(white, rgb(252, 213, 144, 0.5));
-}
-#design-choices {
-    width:70%;
-    margin-top: 2%;
-    flex-wrap: wrap;
-}
-
-.dc-item {
-    width: 45%;
+    background-image: linear-gradient(white, rgb(255, 202, 110, 0.5));
 }
 
 /*--------------- Result -----------*/
 #my-app {
-    border: 2px solid rgb(252, 213, 144, 0.8);
+    border: 2px solid rgb(255, 202, 110, 0.8);
     box-shadow: 2px;
     width: 40vw;
     height: auto
@@ -71,10 +63,10 @@ a{
 
 .expandable-box {
     width: 30vw;
-    background-color: rgb(252, 213, 144, 0.5);
+    background-color: rgb(255, 202, 110, 0.5);
 }
 
 /*------------- Reflection ---------------*/
 #reflection {
-    background-color: rgb(252, 213, 144, 0.3);
+    background-color: rgb(255, 202, 110, 0.3);
 }

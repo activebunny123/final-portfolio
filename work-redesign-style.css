@@ -27,7 +27,7 @@
 
 /* ----------------------- Challenge ------------------*/
 #challenge{
-    background-color: rgba(224, 164, 164)
+    background-color: rgba(224, 164, 164,0.8)
 }
 
 /* ---------------------- Research section --------------*/
@@ -69,6 +69,10 @@
     flex-wrap:wrap;
     width: 70%;
     margin-top: 1vh;
+}
+
+.pb {
+    width: 40%
 }
 
 .material-symbols-outlined {
@@ -154,7 +158,7 @@ ul {
 
 /*------------------- Result -------------------*/
 #result {
-    background-color: rgba(224, 164, 164);
+    background-color: rgba(224, 164, 164, 0.8);
 }
 
 #webpages {

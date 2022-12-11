@@ -3,6 +3,7 @@ body {
     padding: 0%;
     margin: 0%;
     cursor:default;
+    overflow-x: hidden
 }
 
 ::-webkit-scrollbar {
@@ -58,6 +59,14 @@ body {
     color: black;
 }
 
+.navbar li a:hover  {
+    -webkit-text-stroke: 1px black;
+}
+
+.navbar li a:active  {
+    color: white;
+}
+
 
 /*----------------------- Content ----------------------*/
 
@@ -68,7 +77,7 @@ body {
 }
 
 #intro-text{
-    width: 60%;
+    width: 65%;
     margin-left: 3vw;
     padding-top: 35vh;
 }
@@ -92,16 +101,21 @@ body {
     font-size: 3vw;
     width: 80%;
 }
+
+#see-my-works {
+    padding: 1vw 1.5vw;
+    font-size: 1.5vw;
+}
 /*------------------ Typing effect ------------------*/
 .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #555; /* The typwriter cursor */
+    border-right: .15em solid transparent; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     /*letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(30, end),
-      blink-caret .5s step-end 4.1;
+      blink-caret .5s step-end 6;
   }
   
   /* The typing effect */
@@ -113,16 +127,17 @@ body {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #555 }
+    50% { border-color: transparent }
   }
+
 
 /* -------------------- MY WORK SECTION -----------------*/
 #work {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3vw;
     width: 100%;
+    padding-bottom: 10vh;
 }
 
 #work-container {
@@ -131,7 +146,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80vw;
 }
 
 .work-item {
@@ -161,7 +176,7 @@ body {
 
 .work-item-pic {
     width: 100%;
-    height: 60vh;
+    height: 20vw;
     object-fit: cover;
     border-radius: 2vw 2vw 0 0;
 
@@ -169,13 +184,16 @@ body {
 
 .work-item-text {
     width: 90%;
-    height: 18vw;
+    /* height: 18vw; */
+    height: 12.5vw;
     margin: 0 1vw;
     text-align: left;
 }
 
+
+
 button {
-    padding: 1vw 1.5vw;
+    padding: 0.8vw 1.2vw;
     border-radius: 1vw;
     text-align: center;
     background-color: black;
@@ -184,7 +202,7 @@ button {
     box-shadow: lightgray;
     align-self: center;
     margin-bottom: 1vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 button:visited {
@@ -213,19 +231,19 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5vw;
-    font-weight: 600;
+    font-size: 2vw;
+    font-weight: 500;
     margin: 1vw 0;
 }
 
 h4 {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 200;
     margin: 0.5vw 0;
 
 }
 
 p {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-weight: 300;
 }

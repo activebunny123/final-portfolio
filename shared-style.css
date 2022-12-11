@@ -3,6 +3,7 @@ body {
     padding: 0%;
     margin: 0%;
     cursor:default;
+    overflow-x: hidden;
 }
 /*----------- NavBar ---------------*/
 .navbar {
@@ -41,6 +42,15 @@ body {
     color: black;
 }
 
+.navbar li a:hover  {
+    -webkit-text-stroke: 1px black;
+}
+
+.navbar li a:active  {
+    color: white;
+}
+
+
 /*------------------Body ------------------*/
 .body-item {
     display: flex;
@@ -78,6 +88,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 3%;
+    width: 100%;
 }
 .row-container{
     display: flex;
@@ -104,15 +115,15 @@ h1 {
 }
 
 h2 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin: 2vw 0 1.5vw;
     font-weight: 600;
 }
 
 .sec-subtitle {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
-    margin: 1.5vw 0;
+    margin: 2.5vw 0 1vw;
     font-weight: 500;
 }
 
@@ -128,11 +139,11 @@ h4 {
     font-size: 1.5vw;
     margin: 5% auto 2%;
     font-weight: 400;
-    text-align: center;;
+    text-align: center;
 }
 
 .sub-subtitle {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     color: #555;
     font-style: italic;
     font-weight: light;
@@ -142,7 +153,7 @@ h4 {
 .blah {
     width: 45%;
     font-size: 1.5vw;
-    margin: 1vw 20% 2vw;
+    margin: 1vw 20%;
     font-weight: 300;
     text-align: left;
 }
@@ -164,6 +175,10 @@ a {
     text-decoration: underline;
 }
 /*---------------- Research ---------------*/
+.aud-def {
+    margin-top: 5vh;
+}
+
 #aud-description {
     width: 40%;
 }
@@ -175,19 +190,38 @@ a {
     border-radius: 2vw;
 }
 
+/*------------- Design ------------------*/
+#design-choices {
+    width:80%;
+    margin-top: 3vh;
+    flex-wrap: wrap;
+}
+
+.dc-item {
+    width: 35%;
+}
+
+.dc-title {
+    font-size: 1.7vw;
+    font-weight: 400;
+}
+
 /*------------ Scroll Bar ----------------*/
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
+    background-color: transparent;
 }
 
 ::-webkit-scrollbar-track {
     border: 1px solid;
     border-radius: 10px;
+    background-color: transparent;
 }
     
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
+    background-color: transparent;
 }
 
 /*-------------- Precedent Work --------------*/

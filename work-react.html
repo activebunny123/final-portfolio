@@ -26,15 +26,10 @@
         <div class="body-item" id="bg">
             <h2>Background</h2>
             <p class="blah">
-                Many websites developed using html and css struggle with the redundancy of similar components,
-                as well as programing interactive components. This can be solved by using React, which is a JavaScript Liabrary
+                Businesses need their website to be interative and to have the same design for all their offerings.
+                This can be solved by using React, which is a JavaScript Liabrary
                 specifically designed for developing interactive web-based applications.
-                <br><br>
-                Having the website being interactive and have a uniform design across a large number of items 
-                is essential for businesses, one application being the product catelog and the online ordering workflow.
-                <br><br>
-                This project will be a learning experience for me to explore the use of states and components
-                in React, an essential part of interative web development.
+                Some of the key features of React includes components and state changes.
             </p>
         </div>
         <div class="body-item" id="challenge">
@@ -56,7 +51,7 @@
                     In this case, the target audience would be customers of a restaurant, looking to ordering online
                     Drawing on real-life experiences, I have summarized the characteristics of those customers. 
                 </p>
-                <h3>Hungry Customers Looking for Food</h3>
+                <h3 class="aud-def">Hungry Customers Looking for Food</h3>
                 <div class="row-container">
                     <ul id="aud-description">
                         <li class="persona-item"> Says
@@ -81,7 +76,7 @@
                         <li class="persona-item"> Wants
                             <ul>
                                 <li>Clear presentation of the current shopping cart.</li>
-                                <li>Easy add and remove item.s</li>
+                                <li>Easy add and remove items.</li>
                                 <li>See and select item based on attributes such as spiciness.</li>
                             </ul>
                         </li>
@@ -93,12 +88,20 @@
                 <p class="sec-subtitle">Precedent Works</p>
                 <p class="blah">I also studied three existing websites with online ordering functionalities,
                     to understand what customers are used to and what can be improved.
-                    <br><br> 
-                    I chose P.F.Chang for its similarity to my application as an Asian restaurant, 
-                    Plant City for its sleek and modern design, 
-                    and Macy's for its advanced application of filtering & sorting functionalities over 
-                    its enermous product catalog.
+                    <br><br>
+                    I chose...
                 </p>
+                <ul style="margin-top:0;">
+                    <li>
+                        P.F.Chang: asian restaurant
+                    </li>
+                    <li>
+                        Plant City: sleek and modern design
+                    </li>
+                    <li>
+                        Macy's: advanced application of filtering & sorting
+                    </li>
+                </ul>
                 <div class="row-container">
                     <a class="hyperlink" href="https://order.pfchangs.com/store/9879/P.F.%20Chang's%20-%20Providence/27295/Family%20Meals?filter=72" target="_blank">
                         <img class = "ex-pic expandable-pic" src="./img-work-react/pfchang.png" alt="clickable photo of P.F.Chang's website"/>
@@ -160,7 +163,7 @@
             <p class="sec-subtitle">Design Choices</p>
             <div class="row-start-container" id="design-choices">
                 <div class="flex-container dc-item">
-                    <h4>Filters</h4>
+                    <h4 class="dc-title">Filters</h4>
                     <p>Similar to restaurants using food categories to 
                         allow customers jumping to different sections of the menu,
                         my application will have filters based on attributes of food.
@@ -174,7 +177,7 @@
                     </p>
                 </div>
                 <div class="flex-container dc-item">
-                    <h4>Sort</h4>
+                    <h4 class="dc-title">Sort</h4>
                     <p>
                         I chose to implement sort based on price (low-to-high and high-to-low), 
                         considering the budgeting needs of potential customers.
@@ -184,7 +187,7 @@
                     </p>
                 </div>
                 <div class="flex-container dc-item">
-                    <h4>Shopping Cart</h4>
+                    <h4 class="dc-title">Shopping Cart</h4>
                     <p>
                         Similar to Plant City, my application will have the shopping cart on the side,
                         updating instantaneously. I made this choice because, unlike clothes shopping, 
@@ -196,7 +199,7 @@
                     </p>
                 </div>
                 <div class="flex-container dc-item">
-                    <h4>Button to Add Item</h4>
+                    <h4 class="dc-title">Button to Add Item</h4>
                     <p>
                         As the menu of this application is rather simple, I will add a button of "add-to-cart"
                         below each item. This is meant to clarify the process of adding to cart as much as possible.

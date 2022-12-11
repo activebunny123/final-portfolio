@@ -4,6 +4,7 @@
         <link href="shared-style.css" rel="stylesheet" />
         <link href="work-knowtex-style.css" rel="stylesheet" />
         <link href='https://fonts.googleapis.com/css?family=League Spartan:200,300,400,500,600,700,800' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <title>Work - Knowtex</title>
     </head>
     <body>
@@ -25,26 +26,19 @@
         <div class="body-item" id="bg">
             <h2>Background</h2>
             <p class="blah">
-                Telehealth has picked up during the COVID-19 pandemic, 
-                and more medical practices start to integrate online patient visit into their business.
-                At the same time, many doctors and hospitals still use hand-written files for records.
-                Also, doctors need to assign medical codes to services provided for insurance purpose.
-                With the growing complex medical code system, assiging codes become a laborous task that 
-                is time-consuming and inducive to mistakes.
+                Telehealth has picked up during the COVID-19 pandemic.
+                However, hospitals's record-management did not follow. 
+                Doctors have to hand-write notes and manually assign medical codes.
                 <br><br>
                 According to a <a href="https://mymedicalscore.com/medical-error-statistics/#:~:text=Top%20Health%20Statistics%201%20Medical%20billing%20errors%20cost,surgical%20errors%20occur%20each%20year.%20More%20items...%20" style="text-decoration: underline; color: black;">MyMedicalSore report</a>,
                 inaccurate medical coding and erroneous billing cost Americans more than $2 billion annually, 
                 and about 12 million Americans are misdiagnosed each year.
-                The inefficicent system is costly and contributes to burn-outs among medical professionals.
             </p>
             <img id='knowtex-logo-p' src="img-work-knowtex/knowtex-logo-clear-bg.png" />
             <p class="blah">
                 Knowtex is a startup that aims to use artificial intelligence 
                 and voice recognition to help doctors take better visit notes 
-                and more easily assign diagnosis and service medical codes. 
-                Its goal is to ultimately allow doctors to be able to fully 
-                focus on their patients in visits, 
-                while the Knowtex AI application takes notes on the visit.
+                and more easily assign diagnosis and service medical codes, so that they can focus on the patients better.
             </p>
         </div>
         <div class="body-item" id="challenge">
@@ -60,23 +54,33 @@
         </div>
         <div class="body-item" id="research">
             <h2>Research</h2>
+            <p class="sec-subtitle">Current Healthcare Admin Software: 
+                <br>Electronic Health Record (EHR)</p>
+            <div style="width: 80%;" class="row-container" >
+                <div style="width: 45%;" class="ex-text">
+                    <p style="font-size: 1.7vw;" class="ex-description">
+                        Existing EHR system are often desktop/web-based applications.
+                        They are crowded with information, including schedule, patients data, and more.
+                        <br><br>
+                        While providing all the necessary information for medical records, 
+                        such EHR does not support online visit and are hard to learn.
+                    </p>
+                </div>
+                <img class = "ex-pic" src="./img-work-knowtex/EHR.jpg" alt="exmample of an EHR software"/>
+            </div>
             <div class="flex-container" id="aud">
                 <p class="sec-subtitle">Understanding the Audience</p>
-                <p class="blah">
-                    To determine what functionalities this application should provide, 
-                    We want to get a better understanding of the needs and wants of the 
-                    target audience for the applicastion. In this case, 
-                    the target audience would be medical professionals with online patient visits. 
+                <p class="blah"> 
                     Having had conversations with friends and relatives working in the medical field,
-                    our team and I summarized key charactersitics of our potential users, and those are listed below.
+                    our team summarized key charactersitics of our potential users.
                 </p>
-                <h3>Doctors with online patient visits</h3>
+                <h3 class="aud-def">Doctors with online patient visits</h3>
                 <div class="row-container">
                     <ul id="aud-description">
                         <li class="persona-item"> Says
                             <ul>
-                                <li>"There are so many records..I just want to get this done with"</li>
-                                <li>"We should have a better system"</li>
+                                <li>"There are so many records...I just want to get this done with."</li>
+                                <li>"We should have a better system!"</li>
                             </ul>
                         </li>
                         <li class="persona-item"> Thinks
@@ -87,15 +91,15 @@
                         </li> 
                         <li class="persona-item"> Feels
                             <ul>
-                                <li>Frastrated by looking up and assigning medical codes</li>
-                                <li>Exhausted by a long-day of patient vists</li>
+                                <li>Frastrated by looking up and assigning medical codes.</li>
+                                <li>Exhausted by a long-day of patient vists.</li>
                             </ul>
                         </li>
                         <li class="persona-item"> Wants
                             <ul>
-                                <li>Want to dedicate most attention to patients to make it an overall positive experience for both parties</li>
-                                <li>Hope the note-taking process is easy, fast, and error-free</li>
-                                <li>Want to have patient records "at hand" while all the records are neatly organized</li>
+                                <li>Dedicate most attention to patients to make it an overall positive experience for both parties.</li>
+                                <li>Easy, fast, and error-free note-taking process.</li>
+                                <li>Have patient records "at hand" while all the records are neatly organized.</li>
                             </ul>
                         </li>
                     </ul>
@@ -103,7 +107,7 @@
                 </div>
             </div>
             <div class="flex-container">
-                <p class="sec-subtitle">Key Design Elements and Precedent Works</p>
+                <p class="sec-subtitle">Key Design Elements and Precedent Work</p>
                 <div class="row-container">
                     <a class="hyperlink" href="https://otter.ai" target="_blank">
                         <img class = "ex-pic expandable-pic" src="./img-work-knowtex/otter.jpg" alt="clickable photo of Otter.ai"/>
@@ -120,19 +124,6 @@
                         </p>
                     </div>
                 </div>
-                <div class="row-container">
-                    <div class="ex-text">
-                        <h3>Healthcare Admin Software: Electronic Health Record (EHR)</h3>
-                        <p class="ex-description">
-                            Existing EHR system are often desktop/web-based applications.
-                            As shown in the photo, they are crowded with information, including schedule, patients information, and more.
-                            <br><br>
-                            While providing all the necessary information for medical records, 
-                            such EHR does not support online visit and are hard to learn.
-                        </p>
-                    </div>
-                    <img class = "ex-pic" src="./img-work-knowtex/EHR.jpg" alt="exmample of an EHR software"/>
-                </div>
             </div>
         </div>
         <div class="body-item" id="design">
@@ -142,10 +133,6 @@
                 we settled on a simple yet professional design style, 
                 incorporating elements such as calendar and patient information from traditional EHRs,
                 and audio transcript and minimalistic style from products such as Otter.ai. 
-                <br><br>
-                Each member of our team made a set of rough sketches representing our initial visions, 
-                and we integrated our ideas into one uniform design, 
-                the low-fi and high-fi prototype of which are presented below.
             </p>
             <div class="flex-container">
                 <p class="sec-subtitle">Low-Fi Design</p>
@@ -208,7 +195,7 @@
                 <h3>Design Choices: Response to Critiques</h3>
                 <div class="row-start-container" id="design-choices">
                     <div class="dc-item">
-                        <h4>Adding symbols to button or not</h4>
+                        <h4 class="dc-title">Adding symbols to button or not</h4>
                         <p>We added some symbols to certain buttons 
                             (like the log out button), 
                             but largely decided to keep — but simplify — 
@@ -218,19 +205,19 @@
                         </p>
                     </div>
                     <div class="dc-item">
-                        <h4>Access voice calibration from different locations</h4>
+                        <h4 class="dc-title">Access voice calibration from different locations</h4>
                         <p>We added a “re-calibrate voice recognition” button
                             to the record in-progress page.</p>
                     </div>
                     <div class="dc-item">
-                        <h4>Improve button locations</h4>
+                        <h4 class="dc-title">Improve button locations</h4>
                         <p>We shifted the locations of buttons to hopefully
                             clarify flow, 
                             while keeping the “back” button in the top right of 
                             every screen.</p>
                     </div>
                     <div class="dc-item">
-                        <h4>Edit / Delete Past Records</h4>
+                        <h4 class="dc-title">Edit / Delete Past Records</h4>
                         <p> The reality of the healthcare system is that 
                             once records have been published to a patient’s 
                             medical record, they may not be altered or removed.
@@ -244,11 +231,20 @@
                     </div>
                 </div>
                 <p class="sec-subtitle">Final Prototype</p>
-                <div>
-                    <a class="hyperlink" href="https://www.figma.com/proto/oMWi69NQH8sjUstxIuPn8l/Iterative-Design-Knowtex?node-id=113%3A42" target="_blank">
-                        <h4>Check Out the Workflow</h4>
-                    </a>
-
+                <a class="hyperlink" href="https://www.figma.com/proto/oMWi69NQH8sjUstxIuPn8l/Iterative-Design-Knowtex?node-id=113%3A42" target="_blank">
+                    <h4>Check Out the Workflow</h4>
+                </a>
+                <div class="design-gallery">
+                    <img class="design-img" src="img-work-knowtex/high1-login.png">
+                    <img class="design-img" src="img-work-knowtex/final-1.png">
+                    <img class="design-img" src="img-work-knowtex/final-2.png">
+                    <img class="design-img" src="img-work-knowtex/final-3.png">
+                    <img class="design-img" src="img-work-knowtex/final-4.png">
+                    <img class="design-img" src="img-work-knowtex/final-5.png">
+                    <img class="design-img" src="img-work-knowtex/final-6.png">
+                    <img class="design-img" src="img-work-knowtex/final-7.png">
+                    <img class="design-img" src="img-work-knowtex/final-8.png">
+                    <img class="design-img" src="img-work-knowtex/final-9.png">
                 </div>
             </div>
         </div>
@@ -261,18 +257,6 @@
             </p>
             <div class="flex-container">
                 <p class="sec-subtitle">User Testing</p>
-                <h3>Videos of Three Users Navigating Our Prototype with Given Tasks</h3>
-                <div class="row-container" id="user-videos">
-                    <video controls>
-                        <source src="img-work-knowtex/user1 video.mp4" type="video/mp4">
-                    </video>
-                    <video controls>
-                        <source src="img-work-knowtex/user2 video.mp4" type="video/mp4">
-                    </video>
-                    <video controls>
-                        <source src="img-work-knowtex/user3 video.mp4" type="video/mp4">
-                    </video>
-                </div>
                 <div class="flex-container">
                     <h3>Tasks Assigned to Users</h3>
                     <ul class="num-list">
@@ -289,6 +273,33 @@
                             Complete and publish the Visit Record and Service & Code forms to John Dough’s medical record
                         </li>
                     </ul>
+                    <div class="expandable-box">
+                        <a href="#int-hide1" class="hide row-container" id="int-hide1">
+                            <h4 class="box-title">Check Out the User Videos</h4>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </a>
+                        <a href="#int-show1" class="show row-container" id="int-show1">
+                            <h4 class="box-title">Check Out the User Videos</h4>
+                            <span class="material-symbols-outlined">
+                                expand_less
+                            </span>
+                        </a>
+                        <div class="expanded-content">
+                            <div class="flex-container" id="user-videos">
+                                <video controls>
+                                    <source src="img-work-knowtex/user1 video.mp4" type="video/mp4">
+                                </video>
+                                <video controls>
+                                    <source src="img-work-knowtex/user2 video.mp4" type="video/mp4">
+                                </video>
+                                <video controls>
+                                    <source src="img-work-knowtex/user3 video.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex-container">
                     <h3>User Feedback Analysis</h3>

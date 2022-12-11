@@ -28,10 +28,7 @@
             <h2>Background</h2>
             <p class="blah">Online ordering and food delivery has been growing fast as consumers enjoy the convenience, 
                 and COVID-19 pandemic has exacerbated this trend.
-                Nowadays, good customer service goes beyond the taste of food and speed of delivery, 
-                as it depends on the overall experience with navigating website, placing order, and more.
                 However, many restaurants struggle to provide a versatile online platform that balances between aesthetic, ease of navigation, and information.
-                Often, theses websites are not up to the standards with their tech-savvy customers.
                 <br><br>
                 This is the case with Yan's Cuisine, a Chinese restaurant located near Brown University's campus in Providence, RI.
                 Though they have delicious food, their website is hard to navigate.
@@ -46,46 +43,6 @@
         </div>
         <div class="body-item" id="research">
             <h2>Research</h2>
-            <div class="flex-container" id="aud">
-                <p class="sec-subtitle">Understanding the Audience</p>
-                <p class="blah">To determine what improvements this redesign should bring,
-                    I want to get a better understanding of the needs and wants of the target audience for the website.
-                    In this case, the target audience would be existing or potential customers of Yan's, 
-                    looking to ordering online, or simply finding information about the restaurant.
-                    Drawing on real-life experiences, I have summarized the characteristics of those customers. 
-                </p>
-                <h3>Customer of Yan's Looking to Order Online</h3>
-                <div class="row-container">
-                    <ul id="aud-description">
-                        <li class="persona-item"> Says
-                            <ul>
-                                <li>"Let's get some Chinese food today!"</li>
-                                <li>"Where can I find the opening hours of Yan's?"</li>
-                                <li>"This website is completely unusable on my phone!"</li>
-                            </ul>
-                        </li>
-                        <li class="persona-item"> Thinks
-                            <ul>
-                                <li>How can I place an order for pickup?</li>
-                                <li>I cannot read those small texts! I need my glasses.</li>
-                            </ul>
-                        </li> 
-                        <li class="persona-item"> Feels
-                            <ul>
-                                <li>Frustrated by not being able to select an item because everything is too small on tablet.</li>
-                                <li>Hungryyyyyyy!</li>
-                            </ul>
-                        </li>
-                        <li class="persona-item"> Wants
-                            <ul>
-                                <li>Clear layout with the most important functionalities (ex. order online) being the most obvious.</li>
-                                <li>Easy navigation to different information.</li>
-                                <li>Website adaptable to different screen sizes so that it's usable on different devices.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <img id="aud-pic" src="img-work-redesign/audience-food.png"/>
-                </div>
                 <p class="sec-subtitle">Identify Problems</p>
                 <div class="row-container" id="identify-pb-intro">
                     <div class="ex-text">
@@ -124,7 +81,59 @@
                     accessibility issues (using WAVE Website Accessibility Evaluation Tool), which are listed below.
                 </p>
                 <div class="row-start-container" id="problems">
-                    <div class="expandable-box">
+                    <div class="pb">
+                        <h4 class="dc-title">Learnability</h4>
+                        <ul id="pb-list">
+                            <li>
+                                Unconventional login option on the left
+                            </li>
+                            <li>
+                                Location & Hours separated by the logo picture
+                            </li>
+                            <li>
+                                Standalone "form of payment" 
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="pb">
+                        <h4 class="dc-title">Memorability</h4>
+                        <ul id="pb-list">
+                            <li>
+                                Too many menu categories have the same design 
+                            </li>
+                            <li>
+                                Unintuitive design: search bar & location Info at the bottom
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pb">
+                        <h4 class="dc-title">Usability</h4>
+                        <ul id="pb-list">
+                            <li>
+                                Too much text and white space, takes too much time to scroll
+                            </li>
+                            <li>
+                                Hard-to-find search bar & contact info at the bottom
+                            </li>
+                            <li>
+                                Medium & Small Screen has overly small font
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pb">
+                        <h4 class="dc-title">Accessibility</h4>
+                        <ul id="pb-list">
+                            <li>Very small text, expecially for menu categories
+                            </li>
+                            <li>
+                                Redundant links causes confusion
+                            </li>
+                            <li>
+                               Multiple labels associated with one input -- assistive tech unable to read the appropriate label
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="expandable-box">
                         <a href="#int-hide1" class="hide row-container" id="int-hide1">
                             <h4 class="box-title">Learnability</h4>
                             <span class="material-symbols-outlined">
@@ -306,9 +315,49 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-            </div>
+            <div class="flex-container" id="aud">
+                <p class="sec-subtitle">Understanding the Audience</p>
+                <p class="blah">
+                    I want to get a better understanding of the needs and wants of the target audience for the website.
+                    In this case, the target audience would be existing or potential customers of Yan's, 
+                    looking to ordering online, or simply finding information about the restaurant.
+                    Drawing on real-life experiences, I have summarized the characteristics of those customers. 
+                </p>
+                <h3 class="aud-def">Customer of Yan's Looking to Order Online</h3>
+                <div class="row-container">
+                    <ul id="aud-description">
+                        <li class="persona-item"> Says
+                            <ul>
+                                <li>"Let's get some Chinese food today!"</li>
+                                <li>"Where can I find the opening hours of Yan's?"</li>
+                                <li>"This website is completely unusable on my phone!"</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Thinks
+                            <ul>
+                                <li>How can I place an order for pickup?</li>
+                                <li>I cannot read those small texts! I need my glasses.</li>
+                            </ul>
+                        </li> 
+                        <li class="persona-item"> Feels
+                            <ul>
+                                <li>Frustrated by not being able to select an item because everything is too small on tablet.</li>
+                                <li>Hungryyyyyyy!</li>
+                            </ul>
+                        </li>
+                        <li class="persona-item"> Wants
+                            <ul>
+                                <li>Clear layout with the most important functionalities (ex. order online) being the most obvious.</li>
+                                <li>Easy navigation to different information.</li>
+                                <li>Website adaptable to different screen sizes so that it's usable on different devices.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img id="aud-pic" src="img-work-redesign/audience-food.png"/>
+                </div>
+            </div>   
             <div class="flex-container">
                 <p class="sec-subtitle">Precedent Work</p>
                 <div class="row-container">
@@ -376,13 +425,14 @@
                     <div class="row-start-container"id="design-choices">
                         <div class="dc-item">
                             <h4>Layout for Larger Containers</h4>
-                            <p>The body is divided by grid, because the design is more static and follows a simple verticle flow regardless of screen size. <br>
+                            <p>The body is divided by grid, because the design is more static and follows a simple verticle flow regardless of screen size. 
+                                <br><br>
                                 Each grid has the flex layout, because it is easier to arrange smaller elements and allow for responsive adjustments.</p>
                         </div>
                         <div class="dc-item">
                             <h4>In-between Sizes</h4>
                             <p>Most elements have units of "vw" or in percentage, which allows for automatic adjustment to change in screen size. 
-                                <br>
+                                <br><br>
                                 The breakpoint in screen size is chosen such that when elements do change size 
                                 (Ex. h1 changes from 8 to 9 to 11vw for larger, medium, and small screen), the size increase wouldn't be too drastic.</p>
                         </div>
