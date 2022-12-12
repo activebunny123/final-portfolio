@@ -80,7 +80,8 @@
     width: 90%;
     height: 30vw;
     margin-top: 2vw;
-    margin-bottom: 5vw;
+    margin-bottom: 5vh;
+    overflow-x: hidden;
     overflow-y: scroll;
     border: 2px solid rgba(133, 154, 210, 0.5);
     padding: 1vw 0;
@@ -102,12 +103,22 @@
 }
 
 .design-img{
-    width: 30%;
-    height: 20vw;
+    width: 27vw;
+    height: 45vh;
     object-fit: cover;
-    border: 2px solid #555;
+    border: 1.5px solid rgba(133, 154, 210, 0.5);
     border-radius: 1vw;
     margin-bottom: 1vw;
+}
+
+.sketch-set {
+    width: 90vw;
+    flex-wrap: wrap;
+}
+
+iframe {
+    border: 1px solid rgba(133, 154, 210, 0.6);
+    border-radius: 2vw;
 }
 
 /*--------Crtiques ----------*/

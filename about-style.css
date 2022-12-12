@@ -1,18 +1,25 @@
 #intro {
-    margin-top: 15vw;
+    align-items: flex-start;
+    height: max-content;
+}
+
+#info {
+    margin-top: 15vh;
 }
 
 #description {
-    font-size: 2.5vw;
-    width: 60%;
+    font-size: 2vw;
+    width: 70%;
+    margin-left: 3vw;
 }
 
 img {
-    width: 30%;
+    width: 30vw;
+    margin-top: 25vh;
 }
 
 h2 {
-    margin: 3%;;
+    margin: 3vw;
     font-size: 6vw;
     font-weight: 600;
 }
